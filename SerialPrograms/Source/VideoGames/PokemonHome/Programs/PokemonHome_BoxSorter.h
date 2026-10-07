@@ -44,6 +44,9 @@ private:
     Pokemon::BoxSortingTable SORT_TABLE;
     StringOption OUTPUT_FILE;
     BooleanCheckBoxOption DRY_RUN;
+    StringOption SAVED_PLAN;
+    BooleanCheckBoxOption RESUME_SAVED_PLAN;
+    SimpleIntegerOption<uint16_t> PLAN_MOVES_PER_RUN;
     EventNotificationsOption NOTIFICATIONS;
 
 };

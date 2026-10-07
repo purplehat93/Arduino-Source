@@ -312,6 +312,15 @@ if(NOT EXISTS "${DEST_DIR}/Resources")
     )
 endif()
 
+# Ship the pinned HOME collection reference alongside the normal resources.
+add_custom_command(
+    TARGET SerialPrograms POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E make_directory "${DEST_DIR}/Resources/Pokemon"
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different
+        "${CMAKE_CURRENT_SOURCE_DIR}/Scripts/home_collection/catalog_data/HomeCollectionReference.json"
+        "${DEST_DIR}/Resources/Pokemon/HomeCollectionReference.json"
+)
+
 # Copy firmware if not already present
 if(NOT EXISTS "${DEST_DIR}/Firmware")
     add_custom_command(

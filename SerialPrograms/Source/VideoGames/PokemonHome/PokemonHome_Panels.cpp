@@ -11,7 +11,9 @@
 #include "PokemonHome_Panels.h"
 
 #include "Programs/PokemonHome_PageSwap.h"
+#include "Programs/PokemonHome_BoxSpacesTimingTest.h"
 #include "Programs/PokemonHome_BoxSorter.h"
+#include "Programs/PokemonHome_CollectionManager.h"
 #include "Programs/PokemonHome_BoxSorterLivingDex.h"
 
 #include "Programs/PokemonHome_GenerateNameOCR.h"
@@ -38,6 +40,8 @@ std::vector<PanelEntry> PanelListFactory::make_panels() const{
 //    ret.emplace_back(make_settings<GameSettings_Descriptor, GameSettingsPanel>());
     ret.emplace_back("---- General ----");
     ret.emplace_back(make_SingleSwitchProgram<PokemonHome::PageSwap>());
+    ret.emplace_back(make_SingleSwitchProgram<PokemonHome::BoxSpacesTimingTest>());
+    ret.emplace_back(make_SingleSwitchProgram<PokemonHome::CollectionManager>());
     ret.emplace_back(make_SingleSwitchProgram<PokemonHome::BoxSorter>());
     ret.emplace_back(make_SingleSwitchProgram<PokemonHome::BoxSorterLivingDex>());
     if (IS_BETA_VERSION || STATIC_GLOBALS.DEVELOPER_MODE){

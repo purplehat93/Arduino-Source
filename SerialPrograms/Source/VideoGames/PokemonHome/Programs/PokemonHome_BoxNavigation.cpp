@@ -5,9 +5,24 @@
  */
 
 #include <array>
+#include <chrono>
 #include <optional>
 #include <sstream>
 #include <vector>
+#include <QCryptographicHash>
+#include <QFile>
+#include <QJsonArray>
+#include <QJsonDocument>
+#include <QJsonObject>
+#include "CommonFramework/GlobalAutoPaths.h"
+#include "CommonFramework/ImageTypes/ImageRGB32.h"
+#include "CommonTools/OCR/OCR_Routines.h"
+#include "VideoGames/PokemonHome/Inference/PokemonHome_SummaryScreenDetector.h"
+#include "PokemonHome_CollectionObservationPolicy.h"
+#include "PokemonHome_CollectionFormPolicy.h"
+#include "PokemonHome_CollectionExecutionPolicy.h"
+#include "PokemonHome_CollectionVisualPolicy.h"
+#include "Pokemon/Resources/Pokemon_PokemonHomeSprites.h"
 #include "CommonFramework/Exceptions/OperationFailedExceptionWithScreenshot.h"
 #include "CommonFramework/ImageTools/ImageBoxes.h"
 #include "CommonFramework/ImageTools/ImageStats.h"
@@ -15,6 +30,7 @@
 #include "CommonFramework/Tools/ErrorDumper.h"
 #include "CommonFramework/VideoPipeline/VideoFeed.h"
 #include "CommonFramework/VideoPipeline/VideoOverlayScopes.h"
+#include "CommonTools/Images/ImageFilter.h"
 #include "CommonTools/Async/InferenceRoutines.h"
 #include "NintendoSwitch/Commands/NintendoSwitch_Commands_PushButtons.h"
 #include "Pokemon/Resources/Pokemon_PokemonSlugs.h"
@@ -28,15 +44,128 @@
 #include "VideoGames/PokemonHome/Inference/PokemonHome_SummaryReader.h"
 #include "VideoGames/PokemonHome/Inference/PokemonHome_TeraTypeReader.h"
 #include "PokemonHome_BoxNavigation.h"
+#include "PokemonHome_SlotPointerPolicy.h"
+#include "CommonTools/InferenceCallbacks/VisualInferenceCallback.h"
+#include "VideoGames/PokemonHome/Inference/PokemonHome_BoxViewDetector.h"
+#include "VideoGames/PokemonHome/Inference/PokemonHome_BoxSpacesDetector.h"
 
 namespace PokemonAutomation{
 namespace NintendoSwitch{
 namespace PokemonHome{
 using namespace Pokemon;
 
+std::optional<std::array<size_t, 2>> read_box_slot_cursor_position(const ImageViewRGB32& screen){
+    if (!screen || screen.width() < 640 || screen.height() < 360) return std::nullopt;
+    BoxViewDetector box;
+    if (!box.detect(screen)) return std::nullopt;
+    // HOME shows the selected slot with a blue or orange downward pointer above
+    // its row. Detect its triangular cross-section (a stronger center stripe
+    // than either edge) rather than scoring Pokemon artwork or the blue box
+    // header. Ambiguous frames remain unreadable, so no inputs follow.
+    const double brightness = home_ui_brightness_scale(screen);
+    if (brightness == 0) return std::nullopt;
+    size_t blue_best_score = 0;
+    size_t blue_second_score = 0;
+    size_t blue_center_total = 0;
+    std::array<size_t, 2> blue_best{};
+    for (size_t row = 0; row < 5; ++row){
+        for (size_t column = 0; column < 6; ++column){
+            const bool pointer_shape = home_slot_pointer_shape(screen.data(), screen.width(), screen.height(),
+                screen.bytes_per_row() / sizeof(uint32_t), row, column,
+                home_ui_scaled_color(combine_rgb(0, 110, 190), brightness, brightness < 0.8 ? -8 : 0),
+                home_ui_scaled_color(combine_rgb(80, 230, 255), brightness, brightness < 0.8 ? 8 : 0))
+                || home_slot_pointer_shape(screen.data(), screen.width(), screen.height(),
+                screen.bytes_per_row() / sizeof(uint32_t), row, column,
+                home_ui_scaled_color(combine_rgb(190, 40, 0), brightness, brightness < 0.8 ? -8 : 0),
+                home_ui_scaled_color(combine_rgb(255, 160, 80), brightness, brightness < 0.8 ? 8 : 0));
+            if (!pointer_shape) continue;
+            const double left = 0.056 + 0.072 * column;
+            const double top = 0.155 + 0.105 * row;
+            auto blue_pixels = [&](const ImageFloatBox& region){
+                size_t count = 0;
+                filter_rgb32_range(
+                    count, extract_box_reference(screen, region),
+                    home_ui_scaled_color(combine_rgb(0, 110, 190), brightness, brightness < 0.8 ? -8 : 0),
+                    home_ui_scaled_color(combine_rgb(80, 230, 255), brightness, brightness < 0.8 ? 8 : 0),
+                    Color(0), true
+                );
+                size_t orange = 0;
+                filter_rgb32_range(
+                    orange, extract_box_reference(screen, region),
+                    home_ui_scaled_color(combine_rgb(190, 40, 0), brightness, brightness < 0.8 ? -8 : 0),
+                    home_ui_scaled_color(combine_rgb(255, 160, 80), brightness, brightness < 0.8 ? 8 : 0),
+                    Color(0), true
+                );
+                return count + orange;
+            };
+            const size_t left_count = blue_pixels({left, top, 0.012, 0.020});
+            const size_t center_count = blue_pixels({left + 0.012, top, 0.012, 0.020});
+            const size_t right_count = blue_pixels({left + 0.024, top, 0.012, 0.020});
+            const size_t score = center_count > std::max(left_count, right_count)
+                ? center_count - std::max(left_count, right_count) : 0;
+            if (score > blue_best_score){
+                blue_second_score = blue_best_score;
+                blue_best_score = score;
+                blue_center_total = (size_t)(screen.width() * 0.012) * (size_t)(screen.height() * 0.020);
+                blue_best = {row, column};
+            }else if (score > blue_second_score){
+                blue_second_score = score;
+            }
+        }
+    }
+    if (blue_center_total != 0 && blue_best_score * 100 >= blue_center_total * 20
+        && blue_best_score * 100 >= blue_second_score * 150){
+        return blue_best;
+    }
+    return std::nullopt;
+}
+
+static bool cursor_is_at_slot(SingleSwitchProgramEnvironment& env, size_t row, size_t column){
+    const VideoSnapshot screen = env.console.video().snapshot();
+    const auto position = read_box_slot_cursor_position(screen);
+    return position && (*position)[0] == row && (*position)[1] == column;
+}
+
+namespace{
+class HeldCursorWatcher : public VisualInferenceCallback{
+public:
+    HeldCursorWatcher(size_t row, size_t column)
+        : VisualInferenceCallback("HomeHeldCursorWatcher"), row(row), column(column){}
+    void make_overlays(VideoOverlaySet& items) const override{
+        items.add(COLOR_RED, {0.066 + 0.072 * column, 0.153 + 0.105 * row, 0.015, 0.016});
+    }
+    bool process_frame(const ImageViewRGB32& frame, WallClock) override{
+        ButtonDetector cancel(COLOR_BLACK, ButtonType::ButtonB, {0.100, 0.956, 0.107, 0.041});
+        if (!frame || !cancel.detect(frame)){ matches = 0; return false; }
+        const auto marker = extract_box_reference(frame, ImageFloatBox{0.066 + 0.072 * column, 0.153 + 0.105 * row, 0.015, 0.016});
+        const double scale = home_ui_brightness_scale(frame);
+        size_t black = 0, white = 0;
+        filter_rgb32_range(black, marker, uint32_t(0), home_ui_scaled_color(combine_rgb(65,65,65), scale), Color(0), true);
+        filter_rgb32_range(white, marker, home_ui_scaled_color(combine_rgb(210,210,210), scale), uint32_t(0xffffffff), Color(0), true);
+        const size_t pixels = marker.width() * marker.height();
+        const bool hand = pixels && black * 100 > pixels * 7 && white * 100 > pixels * 65
+            && (black + white) * 100 > pixels * 96;
+        matches = hand ? matches + 1 : 0;
+        return matches >= 2;
+    }
+private:
+    size_t row, column, matches = 0;
+};
+}
+bool confirm_home_held_cursor(SingleSwitchProgramEnvironment& env, ProControllerContext& context,
+    size_t physical_box, size_t row, size_t column){
+    const auto identity = read_home_box_identity(env, context, true);
+    if (!identity || identity->first != physical_box || row >= 5 || column >= 6) return false;
+    HeldCursorWatcher watcher(row, column);
+    const bool matched = wait_until(env.console, context, Seconds(3), {watcher}) == 0;
+    env.console.log("HOME_TIMING action=held_cursor physical_box=" + std::to_string(physical_box)
+        + " row=" + std::to_string(row) + " column=" + std::to_string(column)
+        + " result=" + (matched ? "confirmed" : "mismatch_or_unreadable"));
+    return matched;
+}
 
 // Move the red cursor to the first slot of the box
-// If the cursor is not at the first slot, move the cursor to the left and up one row at a time until it is at the first slot. 
+// If the cursor is not at the first slot, move the cursor to the left and up one row at a time until it is at the first slot.
 bool go_to_first_slot(
     SingleSwitchProgramEnvironment& env,
     ProControllerContext& context,
@@ -95,67 +224,181 @@ bool go_to_first_slot(
     ProControllerContext& context,
     const BoxCursor& cur_cursor,
     const BoxCursor& dest_cursor,
-    Milliseconds GAME_DELAY
+    Milliseconds GAME_DELAY,
+    BoxNavigationTiming* adaptive_timing,
+    bool pokemon_held
 ) {
+    const auto move_started = std::chrono::steady_clock::now();
+    BoxCursor observed_start = cur_cursor;
+    std::optional<std::pair<size_t, size_t>> held_origin;
+    if (pokemon_held){
+        held_origin = read_home_box_identity(env, context, true);
+        if (!held_origin || !confirm_home_held_cursor(env, context, held_origin->first, cur_cursor.row, cur_cursor.column)){
+            OperationFailedExceptionWithScreenshot::fire(ErrorReportMode::SEND_ERROR_REPORT,
+                "Held HOME cursor cannot be confirmed. No movement was sent.", env.console);
+        }
+    }
+
+    if (pokemon_held){
+        const int64_t target = (int64_t)held_origin->first + (int64_t)dest_cursor.box - (int64_t)cur_cursor.box;
+        if (target < 1 || target > (int64_t)held_origin->second || dest_cursor.row >= 5 || dest_cursor.column >= 6){
+            throw UserSetupError(env.console, "Held navigation destination is outside the observed HOME range.");
+        }
+    }
+
+    const bool same_box = cur_cursor.box == dest_cursor.box;
+    const bool has_local_movement = cur_cursor.row != dest_cursor.row || cur_cursor.column != dest_cursor.column;
+    const bool verify_local_cursor = adaptive_timing != nullptr && !pokemon_held;
+    const bool can_learn_local_delay = verify_local_cursor && same_box && has_local_movement;
+    const Milliseconds cursor_delay = can_learn_local_delay
+        ? adaptive_timing->local_cursor_delay
+        : GAME_DELAY;
 
     std::ostringstream ss;
     ss << "Moving cursor from " << cur_cursor << " to " << dest_cursor;
     env.console.log(ss.str());
 
-    // TODO: shortest path movement through pages, boxes
-    for (size_t i = cur_cursor.box; i < dest_cursor.box; ++i) {
-        pbf_press_button(context, BUTTON_R, 80ms, GAME_DELAY + 240ms);
+    const size_t held_target = pokemon_held
+        ? (size_t)((int64_t)held_origin->first + (int64_t)dest_cursor.box - (int64_t)cur_cursor.box) : 0;
+    if (!same_box && adaptive_timing && pokemon_held
+        && home_overview_route_is_faster(held_origin->first, held_target, held_origin->second,
+            *adaptive_timing, cur_cursor.row, cur_cursor.column)){
+        move_home_box_held_overview_verified(env, context, held_target, *adaptive_timing,
+            cur_cursor.row, cur_cursor.column);
+        observed_start.row = 0;
+        observed_start.column = 0;
+    }else if (!same_box && adaptive_timing && !pokemon_held){
+        const auto identity = read_home_box_identity(env, context);
+        if (!identity){
+            OperationFailedExceptionWithScreenshot::fire(ErrorReportMode::SEND_ERROR_REPORT,
+                "Cannot read HOME box identity. Stopped before cross-box navigation.", env.console);
+        }
+        // Box Sorter uses relative box indices; Living Dex uses absolute ones.
+        // Apply the requested difference to the visually read current box.
+        const int64_t target = (int64_t)identity->first + (int64_t)dest_cursor.box - (int64_t)cur_cursor.box;
+        if (target < 1 || target > (int64_t)identity->second){
+            OperationFailedExceptionWithScreenshot::fire(ErrorReportMode::SEND_ERROR_REPORT,
+                "Requested HOME box is outside the observed box range.", env.console);
+        }
+        move_home_box_verified(env, context, (size_t)target, *adaptive_timing,
+            home_overview_route_is_faster(identity->first, (size_t)target, identity->second, *adaptive_timing));
+        observed_start.row = 0;
+        observed_start.column = 0;
+    }else{
+        for (size_t i = cur_cursor.box; i < dest_cursor.box; ++i){
+            pbf_press_button(context, BUTTON_R, 80ms, pokemon_held ? std::max(576ms, GAME_DELAY + 240ms) : GAME_DELAY + 240ms);
+        }
+        for (size_t i = dest_cursor.box; i < cur_cursor.box; ++i){
+            pbf_press_button(context, BUTTON_L, 80ms, pokemon_held ? std::max(576ms, GAME_DELAY + 240ms) : GAME_DELAY + 240ms);
+        }
     }
-    for (size_t i = dest_cursor.box; i < cur_cursor.box; ++i) {
-        pbf_press_button(context, BUTTON_L, 80ms, GAME_DELAY + 240ms);
-    }
-
 
     // direct nav up or down through rows
-    if (!(cur_cursor.row == 0 && dest_cursor.row == 4) && !(dest_cursor.row == 0 && cur_cursor.row == 4)) {
-        for (size_t i = cur_cursor.row; i < dest_cursor.row; ++i) {
-            pbf_press_dpad(context, DPAD_DOWN, 80ms, GAME_DELAY);
+    if (pokemon_held || (!(observed_start.row == 0 && dest_cursor.row == 4) && !(dest_cursor.row == 0 && observed_start.row == 4))) {
+        for (size_t i = observed_start.row; i < dest_cursor.row; ++i) {
+            pbf_press_dpad(context, DPAD_DOWN, 80ms, cursor_delay);
         }
-        for (size_t i = dest_cursor.row; i < cur_cursor.row; ++i) {
-            pbf_press_dpad(context, DPAD_UP, 80ms, GAME_DELAY);
+        for (size_t i = dest_cursor.row; i < observed_start.row; ++i) {
+            pbf_press_dpad(context, DPAD_UP, 80ms, cursor_delay);
         }
     }
     else { // wrap around is faster to move between first or last row
-        if (cur_cursor.row == 0 && dest_cursor.row == 4) {
+        if (observed_start.row == 0 && dest_cursor.row == 4) {
             for (size_t i = 0; i <= 2; ++i) {
-                pbf_press_dpad(context, DPAD_UP, 80ms, GAME_DELAY);
+                pbf_press_dpad(context, DPAD_UP, 80ms, cursor_delay);
             }
         }
         else {
             for (size_t i = 0; i <= 2; ++i) {
-                pbf_press_dpad(context, DPAD_DOWN, 80ms, GAME_DELAY);
+                pbf_press_dpad(context, DPAD_DOWN, 80ms, cursor_delay);
             }
         }
     }
 
     // direct nav forward or backward through columns
-    if ((dest_cursor.column > cur_cursor.column && dest_cursor.column - cur_cursor.column <= 3) || (cur_cursor.column > dest_cursor.column && cur_cursor.column - dest_cursor.column <= 3)) {
-        for (size_t i = cur_cursor.column; i < dest_cursor.column; ++i) {
-            pbf_press_dpad(context, DPAD_RIGHT, 80ms, GAME_DELAY);
+    if ((dest_cursor.column > observed_start.column && dest_cursor.column - observed_start.column <= 3) || (observed_start.column > dest_cursor.column && observed_start.column - dest_cursor.column <= 3)) {
+        for (size_t i = observed_start.column; i < dest_cursor.column; ++i) {
+            pbf_press_dpad(context, DPAD_RIGHT, 80ms, cursor_delay);
         }
-        for (size_t i = dest_cursor.column; i < cur_cursor.column; ++i) {
-            pbf_press_dpad(context, DPAD_LEFT, 80ms, GAME_DELAY);
+        for (size_t i = dest_cursor.column; i < observed_start.column; ++i) {
+            pbf_press_dpad(context, DPAD_LEFT, 80ms, cursor_delay);
         }
     }
     else { // wrap around is faster if direct movement is more than 3 away
-        if (dest_cursor.column > cur_cursor.column) {
-            for (size_t i = 0; i < BOX_COLS - (dest_cursor.column - cur_cursor.column); ++i) {
-                pbf_press_dpad(context, DPAD_LEFT, 80ms, GAME_DELAY);
+        if (dest_cursor.column > observed_start.column) {
+            for (size_t i = 0; i < BOX_COLS - (dest_cursor.column - observed_start.column); ++i) {
+                pbf_press_dpad(context, DPAD_LEFT, 80ms, cursor_delay);
             }
         }
-        if (cur_cursor.column > dest_cursor.column) {
-            for (size_t i = 0; i < BOX_COLS - (cur_cursor.column - dest_cursor.column); ++i) {
-                pbf_press_dpad(context, DPAD_RIGHT, 80ms, GAME_DELAY);
+        if (observed_start.column > dest_cursor.column) {
+            for (size_t i = 0; i < BOX_COLS - (observed_start.column - dest_cursor.column); ++i) {
+                pbf_press_dpad(context, DPAD_RIGHT, 80ms, cursor_delay);
             }
         }
     }
 
     context.wait_for_all_requests();
+
+    if (pokemon_held){
+        const int64_t expected = (int64_t)held_origin->first + (int64_t)dest_cursor.box - (int64_t)cur_cursor.box;
+        if (expected < 1 || expected > (int64_t)held_origin->second
+            || !confirm_home_held_cursor(env, context, (size_t)expected, dest_cursor.row, dest_cursor.column)){
+            OperationFailedExceptionWithScreenshot::fire(ErrorReportMode::SEND_ERROR_REPORT,
+                "Held HOME destination was not confirmed. Stopped without dropping the Pokemon.", env.console);
+        }
+    }
+    const auto queue_finished = std::chrono::steady_clock::now();
+    bool cursor_confirmed = false;
+    Milliseconds extra_settle = 0ms;
+    if (verify_local_cursor){
+        // A rejected second frame restarts agreement within the same timeout.
+        // Do not accept different slots or send movement while observing.
+        const auto confirm_started = std::chrono::steady_clock::now();
+        size_t matching_frames = 0, observation_waits = 0;
+        do{
+            matching_frames = cursor_is_at_slot(env, dest_cursor.row, dest_cursor.column)
+                ? matching_frames + 1 : 0;
+            if (matching_frames >= 3){cursor_confirmed = true;break;}
+            pbf_wait(context, 50ms);
+            context.wait_for_all_requests();
+            ++observation_waits;
+        }while(std::chrono::steady_clock::now() - confirm_started < 2000ms);
+        // The two regular inter-frame waits and queue overhead are not backoff.
+        extra_settle = observation_waits > 2 ? Milliseconds((observation_waits - 2) * 50) : 0ms;
+    }
+    const auto queue_ms = std::chrono::duration_cast<Milliseconds>(queue_finished - move_started).count();
+    const auto observed_ms = std::chrono::duration_cast<Milliseconds>(std::chrono::steady_clock::now() - move_started).count();
+    std::ostringstream timing;
+    timing << "HOME_TIMING action=cursor_move"
+           << " row=" << dest_cursor.row
+           << " column=" << dest_cursor.column
+           << " box_distance=" << (cur_cursor.box > dest_cursor.box ? cur_cursor.box - dest_cursor.box : dest_cursor.box - cur_cursor.box)
+           << " queue_ms=" << queue_ms
+           << " detection_ms=" << observed_ms
+           << " cursor=" << (pokemon_held ? "skipped_held" : !verify_local_cursor ? "not_checked" : cursor_confirmed ? "confirmed" : "mismatch")
+           << " extra_settle_ms=" << extra_settle.count()
+           << " delay_ms=" << cursor_delay.count();
+    env.console.log(timing.str());
+
+    if (verify_local_cursor && !cursor_confirmed){
+        OperationFailedExceptionWithScreenshot::fire(
+            ErrorReportMode::SEND_ERROR_REPORT,
+            "Pokemon HOME cursor did not reach the expected slot. Sorting stopped before the next action.",
+            env.console
+        );
+    }
+    if (can_learn_local_delay){
+        const Milliseconds old_delay = adaptive_timing->local_cursor_delay;
+        adaptive_timing->confirmed_local_move(extra_settle);
+        if (adaptive_timing->local_cursor_delay != old_delay){
+            env.console.log(
+                "HOME_TIMING adaptive action=local_cursor_delay confirmed_moves="
+                + std::to_string(adaptive_timing->confirmed_local_moves)
+                + " old_ms=" + std::to_string(old_delay.count())
+                + " new_ms=" + std::to_string(adaptive_timing->local_cursor_delay.count())
+            );
+        }
+    }
     return dest_cursor;
 }
 
@@ -217,12 +460,13 @@ std::array<size_t, 2> find_occupied_slots_in_box(
 }
 
 // Read the current summary screen and assign various pokemon info into `cur_pokemon_info`
+#include "PokemonHome_CollectionObservation.inc"
+
+// Keep upstream's read-only summary API for existing programs and tests.
 void read_summary_screen(
-    SingleSwitchProgramEnvironment& env, 
-    CollectedPokemonInfo& cur_pokemon_info, 
-    Language ot_name_language, 
-    Language home_language
-) {
+    SingleSwitchProgramEnvironment& env, CollectedPokemonInfo& cur_pokemon_info,
+    Language ot_name_language, Language home_language
+){
     VideoOverlaySet video_overlay_set(env.console);
 
     ImageFloatBox pokemon_box(0.69, 0.18, 0.28, 0.46); // pokemon render pos
@@ -304,7 +548,21 @@ void read_summary_screen(
     env.log_to_ui(create_overlay_info(cur_pokemon_info));
     video_overlay_set.clear();
 
-    // NOTE edit when adding new struct members (detections go here likely)
+}
+
+// Collection capture adds repeated identity/Judge observations without advancing
+// to another Pokemon. The scanning caller owns summary navigation.
+void read_summary_screen(
+    SingleSwitchProgramEnvironment& env, ProControllerContext& context,
+    CollectedPokemonInfo& cur_pokemon_info, Language ot_name_language, Language home_language,
+    QJsonObject* collection_observation, const HomeBoxVisualEvidence* visual_evidence, bool collection_identity_only
+){
+    if (collection_observation) ensure_home_numeric_summary(env, context);
+    read_summary_screen(env, cur_pokemon_info, ot_name_language, home_language);
+    if (collection_observation){
+        *collection_observation = read_home_collection_observation(env, context, cur_pokemon_info,
+            home_language, visual_evidence, collection_identity_only);
+    }
 }
 
 void print_boxes_data(const std::vector<std::optional<CollectedPokemonInfo>>& boxes_data, SingleSwitchProgramEnvironment& env) {

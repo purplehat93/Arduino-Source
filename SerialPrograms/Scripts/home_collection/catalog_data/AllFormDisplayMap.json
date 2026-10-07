@@ -1,0 +1,4246 @@
+{
+    "rattata": [
+        [
+            "rattata-male",
+            "Male Rattata"
+        ],
+        [
+            "rattata-female",
+            "Female Rattata"
+        ],
+        [
+            "rattata-alola",
+            "Alolan Rattata"
+        ]
+    ],
+    "raticate": [
+        [
+            "raticate-male",
+            "Male Raticate"
+        ],
+        [
+            "raticate-female",
+            "Female Raticate"
+        ],
+        [
+            "raticate-alola",
+            "Alolan Raticate"
+        ]
+    ],
+    "raichu": [
+        [
+            "raichu-male",
+            "Male Raichu"
+        ],
+        [
+            "raichu-female",
+            "Female Raichu"
+        ],
+        [
+            "raichu-alola",
+            "Alolan Raichu"
+        ],
+        [
+            "raichu-mega-x",
+            "Mega Raichu X"
+        ],
+        [
+            "raichu-mega-y",
+            "Mega Raichu Y"
+        ]
+    ],
+    "sandshrew": [
+        [
+            "sandshrew",
+            "Sandshrew"
+        ],
+        [
+            "sandshrew-alola",
+            "Alolan Sandshrew"
+        ]
+    ],
+    "sandslash": [
+        [
+            "sandslash",
+            "Sandslash"
+        ],
+        [
+            "sandslash-alola",
+            "Alolan Sandslash"
+        ]
+    ],
+    "vulpix": [
+        [
+            "vulpix",
+            "Vulpix"
+        ],
+        [
+            "vulpix-alola",
+            "Alolan Vulpix"
+        ]
+    ],
+    "ninetales": [
+        [
+            "ninetales",
+            "Ninetales"
+        ],
+        [
+            "ninetales-alola",
+            "Alolan Ninetales"
+        ]
+    ],
+    "diglett": [
+        [
+            "diglett",
+            "Diglett"
+        ],
+        [
+            "diglett-alola",
+            "Alolan Diglett"
+        ]
+    ],
+    "dugtrio": [
+        [
+            "dugtrio",
+            "Dugtrio"
+        ],
+        [
+            "dugtrio-alola",
+            "Alolan Dugtrio"
+        ]
+    ],
+    "meowth": [
+        [
+            "meowth",
+            "Meowth"
+        ],
+        [
+            "meowth-alola",
+            "Alolan Meowth"
+        ],
+        [
+            "meowth-galar",
+            "Galarian Meowth"
+        ],
+        [
+            "meowth-gmax",
+            "Gigantamax Meowth"
+        ]
+    ],
+    "persian": [
+        [
+            "persian",
+            "Persian"
+        ],
+        [
+            "persian-alola",
+            "Alolan Persian"
+        ]
+    ],
+    "geodude": [
+        [
+            "geodude",
+            "Geodude"
+        ],
+        [
+            "geodude-alola",
+            "Alolan Geodude"
+        ]
+    ],
+    "graveler": [
+        [
+            "graveler",
+            "Graveler"
+        ],
+        [
+            "graveler-alola",
+            "Alolan Graveler"
+        ]
+    ],
+    "golem": [
+        [
+            "golem",
+            "Golem"
+        ],
+        [
+            "golem-alola",
+            "Alolan Golem"
+        ]
+    ],
+    "grimer": [
+        [
+            "grimer",
+            "Grimer"
+        ],
+        [
+            "grimer-alola",
+            "Alolan Grimer"
+        ]
+    ],
+    "muk": [
+        [
+            "muk",
+            "Muk"
+        ],
+        [
+            "muk-alola",
+            "Alolan Muk"
+        ]
+    ],
+    "exeggutor": [
+        [
+            "exeggutor",
+            "Exeggutor"
+        ],
+        [
+            "exeggutor-alola",
+            "Alolan Exeggutor"
+        ]
+    ],
+    "marowak": [
+        [
+            "marowak",
+            "Marowak"
+        ],
+        [
+            "marowak-alola",
+            "Alolan Marowak"
+        ]
+    ],
+    "ponyta": [
+        [
+            "ponyta",
+            "Ponyta"
+        ],
+        [
+            "ponyta-galar",
+            "Galarian Ponyta"
+        ]
+    ],
+    "rapidash": [
+        [
+            "rapidash",
+            "Rapidash"
+        ],
+        [
+            "rapidash-galar",
+            "Galarian Rapidash"
+        ]
+    ],
+    "slowpoke": [
+        [
+            "slowpoke",
+            "Slowpoke"
+        ],
+        [
+            "slowpoke-galar",
+            "Galarian Slowpoke"
+        ]
+    ],
+    "slowbro": [
+        [
+            "slowbro",
+            "Slowbro"
+        ],
+        [
+            "slowbro-galar",
+            "Galarian Slowbro"
+        ],
+        [
+            "slowbro-mega",
+            "Mega Slowbro"
+        ]
+    ],
+    "farfetch-d": [
+        [
+            "farfetch-d",
+            "Farfetch’d"
+        ],
+        [
+            "farfetch-d-galar",
+            "Galarian Farfetch’d"
+        ]
+    ],
+    "weezing": [
+        [
+            "weezing",
+            "Weezing"
+        ],
+        [
+            "weezing-galar",
+            "Galarian Weezing"
+        ]
+    ],
+    "mr-mime": [
+        [
+            "mr-mime",
+            "Mr. Mime"
+        ],
+        [
+            "mr-mime-galar",
+            "Galarian Mr. Mime"
+        ]
+    ],
+    "articuno": [
+        [
+            "articuno",
+            "Articuno"
+        ],
+        [
+            "articuno-galar",
+            "Galarian Articuno"
+        ]
+    ],
+    "zapdos": [
+        [
+            "zapdos",
+            "Zapdos"
+        ],
+        [
+            "zapdos-galar",
+            "Galarian Zapdos"
+        ]
+    ],
+    "moltres": [
+        [
+            "moltres",
+            "Moltres"
+        ],
+        [
+            "moltres-galar",
+            "Galarian Moltres"
+        ]
+    ],
+    "slowking": [
+        [
+            "slowking",
+            "Slowking"
+        ],
+        [
+            "slowking-galar",
+            "Galarian Slowking"
+        ]
+    ],
+    "corsola": [
+        [
+            "corsola",
+            "Corsola"
+        ],
+        [
+            "corsola-galar",
+            "Galarian Corsola"
+        ]
+    ],
+    "zigzagoon": [
+        [
+            "zigzagoon",
+            "Zigzagoon"
+        ],
+        [
+            "zigzagoon-galar",
+            "Galarian Zigzagoon"
+        ]
+    ],
+    "linoone": [
+        [
+            "linoone",
+            "Linoone"
+        ],
+        [
+            "linoone-galar",
+            "Galarian Linoone"
+        ]
+    ],
+    "darumaka": [
+        [
+            "darumaka",
+            "Darumaka"
+        ],
+        [
+            "darumaka-galar",
+            "Galarian Darumaka"
+        ]
+    ],
+    "darmanitan": [
+        [
+            "darmanitan-standard-mode",
+            "Darmanitan Standard Mode"
+        ],
+        [
+            "darmanitan-zen-mode",
+            "Darmanitan Zen Mode"
+        ],
+        [
+            "darmanitan-galar-standard-mode",
+            "Galarian Darmanitan Standard Mode"
+        ],
+        [
+            "darmanitan-galar-zen-mode",
+            "Galarian Darmanitan Zen Mode"
+        ]
+    ],
+    "yamask": [
+        [
+            "yamask",
+            "Yamask"
+        ],
+        [
+            "yamask-galar",
+            "Galarian Yamask"
+        ]
+    ],
+    "stunfisk": [
+        [
+            "stunfisk",
+            "Stunfisk"
+        ],
+        [
+            "stunfisk-galar",
+            "Galarian Stunfisk"
+        ]
+    ],
+    "growlithe": [
+        [
+            "growlithe",
+            "Growlithe"
+        ],
+        [
+            "growlithe-hisui",
+            "Hisuian Growlithe"
+        ]
+    ],
+    "arcanine": [
+        [
+            "arcanine",
+            "Arcanine"
+        ],
+        [
+            "arcanine-hisui",
+            "Hisuian Arcanine"
+        ]
+    ],
+    "voltorb": [
+        [
+            "voltorb",
+            "Voltorb"
+        ],
+        [
+            "voltorb-hisui",
+            "Hisuian Voltorb"
+        ]
+    ],
+    "electrode": [
+        [
+            "electrode",
+            "Electrode"
+        ],
+        [
+            "electrode-hisui",
+            "Hisuian Electrode"
+        ]
+    ],
+    "typhlosion": [
+        [
+            "typhlosion",
+            "Typhlosion"
+        ],
+        [
+            "typhlosion-hisui",
+            "Hisuian Typhlosion"
+        ]
+    ],
+    "qwilfish": [
+        [
+            "qwilfish",
+            "Qwilfish"
+        ],
+        [
+            "qwilfish-hisui",
+            "Hisuian Qwilfish"
+        ]
+    ],
+    "sneasel": [
+        [
+            "sneasel-male",
+            "Male Sneasel"
+        ],
+        [
+            "sneasel-female",
+            "Female Sneasel"
+        ],
+        [
+            "sneasel-hisui-male",
+            "Male Hisuian Sneasel"
+        ],
+        [
+            "sneasel-hisui-female",
+            "Female Hisuian Sneasel"
+        ]
+    ],
+    "samurott": [
+        [
+            "samurott",
+            "Samurott"
+        ],
+        [
+            "samurott-hisui",
+            "Hisuian Samurott"
+        ]
+    ],
+    "lilligant": [
+        [
+            "lilligant",
+            "Lilligant"
+        ],
+        [
+            "lilligant-hisui",
+            "Hisuian Lilligant"
+        ]
+    ],
+    "zorua": [
+        [
+            "zorua",
+            "Zorua"
+        ],
+        [
+            "zorua-hisui",
+            "Hisuian Zorua"
+        ]
+    ],
+    "zoroark": [
+        [
+            "zoroark",
+            "Zoroark"
+        ],
+        [
+            "zoroark-hisui",
+            "Hisuian Zoroark"
+        ]
+    ],
+    "braviary": [
+        [
+            "braviary",
+            "Braviary"
+        ],
+        [
+            "braviary-hisui",
+            "Hisuian Braviary"
+        ]
+    ],
+    "sliggoo": [
+        [
+            "sliggoo",
+            "Sliggoo"
+        ],
+        [
+            "sliggoo-hisui",
+            "Hisuian Sliggoo"
+        ]
+    ],
+    "goodra": [
+        [
+            "goodra",
+            "Goodra"
+        ],
+        [
+            "goodra-hisui",
+            "Hisuian Goodra"
+        ]
+    ],
+    "avalugg": [
+        [
+            "avalugg",
+            "Avalugg"
+        ],
+        [
+            "avalugg-hisui",
+            "Hisuian Avalugg"
+        ]
+    ],
+    "decidueye": [
+        [
+            "decidueye",
+            "Decidueye"
+        ],
+        [
+            "decidueye-hisui",
+            "Hisuian Decidueye"
+        ]
+    ],
+    "tauros": [
+        [
+            "tauros",
+            "Tauros"
+        ],
+        [
+            "tauros-paldea-aqua-breed",
+            "Paldean Tauros Combat Breed"
+        ],
+        [
+            "tauros-paldea-blaze-breed",
+            "Paldean Tauros Blaze Breed"
+        ],
+        [
+            "tauros-paldea-combat-breed",
+            "Paldean Tauros Aqua Breed"
+        ]
+    ],
+    "wooper": [
+        [
+            "wooper-male",
+            "Male Wooper"
+        ],
+        [
+            "wooper-female",
+            "Female Wooper"
+        ],
+        [
+            "wooper-paldea",
+            "Paldean Wooper"
+        ]
+    ],
+    "pikachu": [
+        [
+            "pikachu-male",
+            "Male Pikachu"
+        ],
+        [
+            "pikachu-female",
+            "Female Pikachu"
+        ],
+        [
+            "pikachu-cosplay",
+            "Cosplay Pikachu"
+        ],
+        [
+            "pikachu-rock-star",
+            "Pikachu Rock Star"
+        ],
+        [
+            "pikachu-belle",
+            "Pikachu Belle"
+        ],
+        [
+            "pikachu-pop-star",
+            "Pikachu Pop Star"
+        ],
+        [
+            "pikachu-phd",
+            "Pikachu, Ph.D."
+        ],
+        [
+            "pikachu-libre",
+            "Pikachu Libre"
+        ],
+        [
+            "pikachu-original-cap",
+            "Original Cap Pikachu"
+        ],
+        [
+            "pikachu-hoenn-cap",
+            "Hoenn Cap Pikachu"
+        ],
+        [
+            "pikachu-sinnoh-cap",
+            "Sinnoh Cap Pikachu"
+        ],
+        [
+            "pikachu-unova-cap",
+            "Unova Cap Pikachu"
+        ],
+        [
+            "pikachu-kalos-cap",
+            "Kalos Cap Pikachu"
+        ],
+        [
+            "pikachu-alola-cap",
+            "Alola Cap Pikachu"
+        ],
+        [
+            "pikachu-partner-cap",
+            "Partner Cap Pikachu"
+        ],
+        [
+            "pikachu-world-cap",
+            "World Cap Pikachu"
+        ],
+        [
+            "pikachu-gmax",
+            "Gigantamax Pikachu"
+        ]
+    ],
+    "pichu": [
+        [
+            "pichu",
+            "Pichu"
+        ],
+        [
+            "pichu-spiky-eared",
+            "Spiky-eared Pichu"
+        ]
+    ],
+    "unown": [
+        [
+            "unown-a",
+            "Unown A"
+        ],
+        [
+            "unown-b",
+            "Unown B"
+        ],
+        [
+            "unown-c",
+            "Unown C"
+        ],
+        [
+            "unown-d",
+            "Unown D"
+        ],
+        [
+            "unown-e",
+            "Unown E"
+        ],
+        [
+            "unown-f",
+            "Unown F"
+        ],
+        [
+            "unown-g",
+            "Unown G"
+        ],
+        [
+            "unown-h",
+            "Unown H"
+        ],
+        [
+            "unown-i",
+            "Unown I"
+        ],
+        [
+            "unown-j",
+            "Unown J"
+        ],
+        [
+            "unown-k",
+            "Unown K"
+        ],
+        [
+            "unown-l",
+            "Unown L"
+        ],
+        [
+            "unown-m",
+            "Unown M"
+        ],
+        [
+            "unown-n",
+            "Unown N"
+        ],
+        [
+            "unown-o",
+            "Unown O"
+        ],
+        [
+            "unown-p",
+            "Unown P"
+        ],
+        [
+            "unown-q",
+            "Unown Q"
+        ],
+        [
+            "unown-r",
+            "Unown R"
+        ],
+        [
+            "unown-s",
+            "Unown S"
+        ],
+        [
+            "unown-t",
+            "Unown T"
+        ],
+        [
+            "unown-u",
+            "Unown U"
+        ],
+        [
+            "unown-v",
+            "Unown V"
+        ],
+        [
+            "unown-w",
+            "Unown W"
+        ],
+        [
+            "unown-x",
+            "Unown X"
+        ],
+        [
+            "unown-y",
+            "Unown Y"
+        ],
+        [
+            "unown-z",
+            "Unown Z"
+        ],
+        [
+            "unown-exclamation",
+            "Unown !"
+        ],
+        [
+            "unown-question",
+            "Unown ?"
+        ]
+    ],
+    "castform": [
+        [
+            "castform-normal",
+            "Castform Normal"
+        ],
+        [
+            "castform-rainy",
+            "Castform Rainy Form"
+        ],
+        [
+            "castform-snowy",
+            "Castform Snowy Form"
+        ],
+        [
+            "castform-sunny",
+            "Castform Sunny Form"
+        ]
+    ],
+    "kyogre": [
+        [
+            "kyogre",
+            "Kyogre"
+        ],
+        [
+            "kyogre-primal",
+            "Primal Kyogre"
+        ]
+    ],
+    "groudon": [
+        [
+            "groudon",
+            "Groudon"
+        ],
+        [
+            "groudon-primal",
+            "Primal Groudon"
+        ]
+    ],
+    "deoxys": [
+        [
+            "deoxys-normal",
+            "Deoxys Normal Forme"
+        ],
+        [
+            "deoxys-attack",
+            "Deoxys Attack Forme"
+        ],
+        [
+            "deoxys-defense",
+            "Deoxys Defense Forme"
+        ],
+        [
+            "deoxys-speed",
+            "Deoxys Speed Forme"
+        ]
+    ],
+    "burmy": [
+        [
+            "burmy-plant-cloak",
+            "Burmy Plant Cloak"
+        ],
+        [
+            "burmy-sandy-cloak",
+            "Burmy Sandy Cloak"
+        ],
+        [
+            "burmy-trash-cloak",
+            "Burmy Trash Cloak"
+        ]
+    ],
+    "wormadam": [
+        [
+            "wormadam-plant-cloak",
+            "Wormadam Plant Cloak"
+        ],
+        [
+            "wormadam-sandy-cloak",
+            "Wormadam Sandy Cloak"
+        ],
+        [
+            "wormadam-trash-cloak",
+            "Wormadam Trash Cloak"
+        ]
+    ],
+    "cherrim": [
+        [
+            "cherrim-overcast",
+            "Cherrim Overcast Form"
+        ],
+        [
+            "cherrim-sunshine",
+            "Cherrim Sunshine Form"
+        ]
+    ],
+    "shellos": [
+        [
+            "shellos-west-sea",
+            "Shellos West Sea"
+        ],
+        [
+            "shellos-east-sea",
+            "Shellos East Sea"
+        ]
+    ],
+    "gastrodon": [
+        [
+            "gastrodon-west-sea",
+            "Gastrodon West Sea"
+        ],
+        [
+            "gastrodon-east-sea",
+            "Gastrodon East Sea"
+        ]
+    ],
+    "rotom": [
+        [
+            "rotom",
+            "Rotom"
+        ],
+        [
+            "rotom-fan",
+            "Fan Rotom"
+        ],
+        [
+            "rotom-frost",
+            "Frost Rotom"
+        ],
+        [
+            "rotom-heat",
+            "Heat Rotom"
+        ],
+        [
+            "rotom-mow",
+            "Mow Rotom"
+        ],
+        [
+            "rotom-wash",
+            "Wash Rotom"
+        ]
+    ],
+    "dialga": [
+        [
+            "dialga",
+            "Dialga"
+        ],
+        [
+            "dialga-origin",
+            "Dialga Origin Forme"
+        ]
+    ],
+    "palkia": [
+        [
+            "palkia",
+            "Palkia"
+        ],
+        [
+            "palkia-origin",
+            "Palkia Origin Forme"
+        ]
+    ],
+    "giratina": [
+        [
+            "giratina-altered",
+            "Giratina Altered Forme"
+        ],
+        [
+            "giratina-origin",
+            "Giratina Origin Forme"
+        ]
+    ],
+    "shaymin": [
+        [
+            "shaymin-land",
+            "Shaymin Land Forme"
+        ],
+        [
+            "shaymin-sky",
+            "Shaymin Sky Forme"
+        ]
+    ],
+    "arceus": [
+        [
+            "arceus-normal",
+            "Arceus Normal"
+        ],
+        [
+            "arceus-fire",
+            "Arceus Fire"
+        ],
+        [
+            "arceus-bug",
+            "Arceus Bug"
+        ],
+        [
+            "arceus-dark",
+            "Arceus Dark"
+        ],
+        [
+            "arceus-dragon",
+            "Arceus Dragon"
+        ],
+        [
+            "arceus-electric",
+            "Arceus Electric"
+        ],
+        [
+            "arceus-fairy",
+            "Arceus Fairy"
+        ],
+        [
+            "arceus-fighting",
+            "Arceus Fight"
+        ],
+        [
+            "arceus-flying",
+            "Arceus Flying"
+        ],
+        [
+            "arceus-ghost",
+            "Arceus Ghost"
+        ],
+        [
+            "arceus-grass",
+            "Arceus Grass"
+        ],
+        [
+            "arceus-ground",
+            "Arceus Ground"
+        ],
+        [
+            "arceus-ice",
+            "Arceus Ice"
+        ],
+        [
+            "arceus-poison",
+            "Arceus Poison"
+        ],
+        [
+            "arceus-psychic",
+            "Arceus Psychic"
+        ],
+        [
+            "arceus-rock",
+            "Arceus Rock"
+        ],
+        [
+            "arceus-steel",
+            "Arceus Steel"
+        ],
+        [
+            "arceus-water",
+            "Arceus Water"
+        ]
+    ],
+    "basculin": [
+        [
+            "basculin-blue-striped",
+            "Basculin Blue-Striped Form"
+        ],
+        [
+            "basculin-red-striped",
+            "Basculin Red-Striped Form"
+        ],
+        [
+            "basculin-white-striped",
+            "Basculin White-Striped Form"
+        ]
+    ],
+    "deerling": [
+        [
+            "deerling-spring",
+            "Deerling Spring Form"
+        ],
+        [
+            "deerling-summer",
+            "Deerling Summer Form"
+        ],
+        [
+            "deerling-autumn",
+            "Deerling Autumn Form"
+        ],
+        [
+            "deerling-winter",
+            "Deerling Winter Form"
+        ]
+    ],
+    "sawsbuck": [
+        [
+            "sawsbuck-spring",
+            "Sawsbuck Spring Form"
+        ],
+        [
+            "sawsbuck-summer",
+            "Sawsbuck Summer Form"
+        ],
+        [
+            "sawsbuck-autumn",
+            "Sawsbuck Autumn Form"
+        ],
+        [
+            "sawsbuck-winter",
+            "Sawsbuck Winter Form"
+        ]
+    ],
+    "tornadus": [
+        [
+            "tornadus-incarnate",
+            "Tornadus Incarnate Forme"
+        ],
+        [
+            "tornadus-therian",
+            "Tornadus Therian Forme"
+        ]
+    ],
+    "thundurus": [
+        [
+            "thundurus-incarnate",
+            "Thundurus Incarnate Forme"
+        ],
+        [
+            "thundurus-therian",
+            "Thundurus Therian Forme"
+        ]
+    ],
+    "landorus": [
+        [
+            "landorus-incarnate",
+            "Landorus Incarnate Forme"
+        ],
+        [
+            "landorus-therian",
+            "Landorus Therian Forme"
+        ]
+    ],
+    "kyurem": [
+        [
+            "kyurem",
+            "Kyurem"
+        ],
+        [
+            "kyurem-black",
+            "Black Kyurem"
+        ],
+        [
+            "kyurem-white",
+            "White Kyurem"
+        ]
+    ],
+    "keldeo": [
+        [
+            "keldeo-ordinary",
+            "Keldeo Ordinary Form"
+        ],
+        [
+            "keldeo-resolute",
+            "Keldeo Resolute Form"
+        ]
+    ],
+    "meloetta": [
+        [
+            "meloetta-aria",
+            "Meloetta Aria Forme"
+        ],
+        [
+            "meloetta-pirouette",
+            "Meloetta Pirouette Forme"
+        ]
+    ],
+    "genesect": [
+        [
+            "genesect",
+            "Genesect"
+        ],
+        [
+            "genesect-chill-drive",
+            "Shock Drive Genesect"
+        ],
+        [
+            "genesect-douse-drive",
+            "Burn Drive Genesect"
+        ],
+        [
+            "genesect-shock-drive",
+            "Chill Drive Genesect"
+        ],
+        [
+            "genesect-burn-drive",
+            "Douse Drive Genesect"
+        ]
+    ],
+    "greninja": [
+        [
+            "greninja",
+            "Greninja"
+        ],
+        [
+            "greninja-ash",
+            "Ash-Greninja"
+        ],
+        [
+            "greninja-mega",
+            "Mega Greninja"
+        ]
+    ],
+    "vivillon": [
+        [
+            "vivillon-archipelago",
+            "Vivillon Archipelago Pattern"
+        ],
+        [
+            "vivillon-continental",
+            "Vivillon Continental Pattern"
+        ],
+        [
+            "vivillon-elegant",
+            "Vivillon Elegant Pattern"
+        ],
+        [
+            "vivillon-fancy",
+            "Vivillon Fancy Pattern"
+        ],
+        [
+            "vivillon-garden",
+            "Vivillon Garden Pattern"
+        ],
+        [
+            "vivillon-high-plains",
+            "Vivillon High Plains Pattern"
+        ],
+        [
+            "vivillon-icy-snow",
+            "Vivillon Icy Snow Pattern"
+        ],
+        [
+            "vivillon-jungle",
+            "Vivillon Jungle Pattern"
+        ],
+        [
+            "vivillon-marine",
+            "Vivillon Marine Pattern"
+        ],
+        [
+            "vivillon-meadow",
+            "Vivillon Meadow Pattern"
+        ],
+        [
+            "vivillon-modern",
+            "Vivillon Modern Pattern"
+        ],
+        [
+            "vivillon-monsoon",
+            "Vivillon Monsoon Pattern"
+        ],
+        [
+            "vivillon-ocean",
+            "Vivillon Ocean Pattern"
+        ],
+        [
+            "vivillon-poke-ball",
+            "Vivillon Poké Ball Pattern"
+        ],
+        [
+            "vivillon-polar",
+            "Vivillon Polar Pattern"
+        ],
+        [
+            "vivillon-river",
+            "Vivillon River Pattern"
+        ],
+        [
+            "vivillon-sandstorm",
+            "Vivillon Sandstorm Pattern"
+        ],
+        [
+            "vivillon-savanna",
+            "Vivillon Savanna Pattern"
+        ],
+        [
+            "vivillon-sun",
+            "Vivillon Sun Pattern"
+        ],
+        [
+            "vivillon-tundra",
+            "Vivillon Tundra Pattern"
+        ]
+    ],
+    "flabebe": [
+        [
+            "flabebe-blue-flower",
+            "Flabébé Blue Flower"
+        ],
+        [
+            "flabebe-orange-flower",
+            "Flabébé Orange Flower"
+        ],
+        [
+            "flabebe-red-flower",
+            "Flabébé Red Flower"
+        ],
+        [
+            "flabebe-white-flower",
+            "Flabébé White Flower"
+        ],
+        [
+            "flabebe-yellow-flower",
+            "Flabébé Yellow Flower"
+        ]
+    ],
+    "floette": [
+        [
+            "floette-blue-flower",
+            "Floette Blue Flower"
+        ],
+        [
+            "floette-orange-flower",
+            "Floette Orange Flower"
+        ],
+        [
+            "floette-red-flower",
+            "Floette Red Flower"
+        ],
+        [
+            "floette-white-flower",
+            "Floette White Flower"
+        ],
+        [
+            "floette-yellow-flower",
+            "Floette Yellow Flower"
+        ],
+        [
+            "floette-eternal-flower",
+            "Floette Eternal Flower"
+        ],
+        [
+            "floette-eternal-flower-mega",
+            "Mega Floette Eternal Flower"
+        ]
+    ],
+    "florges": [
+        [
+            "florges-blue-flower",
+            "Florges Blue Flower"
+        ],
+        [
+            "florges-orange-flower",
+            "Florges Orange Flower"
+        ],
+        [
+            "florges-red-flower",
+            "Florges Red Flower"
+        ],
+        [
+            "florges-white-flower",
+            "Florges White Flower"
+        ],
+        [
+            "florges-yellow-flower",
+            "Florges Yellow Flower"
+        ]
+    ],
+    "furfrou": [
+        [
+            "furfrou-natural",
+            "Furfrou Natural Form"
+        ],
+        [
+            "furfrou-heart-trim",
+            "Furfrou Heart Trim"
+        ],
+        [
+            "furfrou-star-trim",
+            "Furfrou Star Trim"
+        ],
+        [
+            "furfrou-diamond-trim",
+            "Furfrou Diamond Trim"
+        ],
+        [
+            "furfrou-debutante-trim",
+            "Furfrou Debutante Trim"
+        ],
+        [
+            "furfrou-matron-trim",
+            "Furfrou Matron Trim"
+        ],
+        [
+            "furfrou-dandy-trim",
+            "Furfrou Dandy Trim"
+        ],
+        [
+            "furfrou-la-reine-trim",
+            "Furfrou La Reine Trim"
+        ],
+        [
+            "furfrou-kabuki-trim",
+            "Furfrou Kabuki Trim"
+        ],
+        [
+            "furfrou-pharaoh-trim",
+            "Furfrou Pharaoh Trim"
+        ]
+    ],
+    "aegislash": [
+        [
+            "aegislash-blade",
+            "Aegislash Blade Forme"
+        ],
+        [
+            "aegislash-shield",
+            "Aegislash Shield Forme"
+        ]
+    ],
+    "pumpkaboo": [
+        [
+            "pumpkaboo-average-size",
+            "Average Size Pumpkaboo"
+        ],
+        [
+            "pumpkaboo-large-size",
+            "Large Size Pumpkaboo"
+        ],
+        [
+            "pumpkaboo-small-size",
+            "Small Size Pumpkaboo"
+        ],
+        [
+            "pumpkaboo-super-size",
+            "Super Size Pumpkaboo"
+        ]
+    ],
+    "gourgeist": [
+        [
+            "gourgeist-average-size",
+            "Average Size Gourgeist"
+        ],
+        [
+            "gourgeist-large-size",
+            "Large Size Gourgeist"
+        ],
+        [
+            "gourgeist-small-size",
+            "Small Size Gourgeist"
+        ],
+        [
+            "gourgeist-super-size",
+            "Super Size Gourgeist"
+        ]
+    ],
+    "xerneas": [
+        [
+            "xerneas-neutral-mode",
+            "Xerneas Neutral Mode"
+        ],
+        [
+            "xerneas-active-mode",
+            "Xerneas Active Mode"
+        ]
+    ],
+    "zygarde": [
+        [
+            "zygarde-ten-percent",
+            "Zygarde 10% Forme"
+        ],
+        [
+            "zygarde-fifty-percent",
+            "Zygarde 50% Forme"
+        ],
+        [
+            "zygarde-complete",
+            "Zygarde Complete Forme"
+        ],
+        [
+            "zygarde-mega",
+            "Mega Zygarde"
+        ]
+    ],
+    "hoopa": [
+        [
+            "hoopa-confined",
+            "Hoopa Confined"
+        ],
+        [
+            "hoopa-unbound",
+            "Hoopa Unbound"
+        ]
+    ],
+    "oricorio": [
+        [
+            "oricorio-baile-style",
+            "Oricorio Baile Style"
+        ],
+        [
+            "oricorio-pau-style",
+            "Oricorio Pa'u Style"
+        ],
+        [
+            "oricorio-pom-pom-style",
+            "Oricorio Pom-Pom Style"
+        ],
+        [
+            "oricorio-sensu-style",
+            "Oricorio Sensu Style"
+        ]
+    ],
+    "lycanroc": [
+        [
+            "lycanroc-midday",
+            "Lycanroc Midday Form"
+        ],
+        [
+            "lycanroc-midnight",
+            "Lycanroc Midnight Form"
+        ],
+        [
+            "lycanroc-dusk",
+            "Lycanroc Dusk Form"
+        ]
+    ],
+    "wishiwashi": [
+        [
+            "wishiwashi-solo",
+            "Wishiwashi Solo Form"
+        ],
+        [
+            "wishiwashi-school",
+            "Wishiwashi School Form"
+        ]
+    ],
+    "silvally": [
+        [
+            "silvally-bug",
+            "Silvally Type: Bug"
+        ],
+        [
+            "silvally-dark",
+            "Silvally Type: Dark"
+        ],
+        [
+            "silvally-dragon",
+            "Silvally Type: Dragon"
+        ],
+        [
+            "silvally-electric",
+            "Silvally Type: Electric"
+        ],
+        [
+            "silvally-fairy",
+            "Silvally Type: Fairy"
+        ],
+        [
+            "silvally-fighting",
+            "Silvally Type: Fighting"
+        ],
+        [
+            "silvally-fire",
+            "Silvally Type: Fire"
+        ],
+        [
+            "silvally-flying",
+            "Silvally Type: Flying"
+        ],
+        [
+            "silvally-ghost",
+            "Silvally Type: Ghost"
+        ],
+        [
+            "silvally-grass",
+            "Silvally Type: Grass"
+        ],
+        [
+            "silvally-ground",
+            "Silvally Type: Ground"
+        ],
+        [
+            "silvally-ice",
+            "Silvally Type: Ice"
+        ],
+        [
+            "silvally-normal",
+            "Silvally Type: Normal"
+        ],
+        [
+            "silvally-poison",
+            "Silvally Type: Poison"
+        ],
+        [
+            "silvally-psychic",
+            "Silvally Type: Psychic"
+        ],
+        [
+            "silvally-rock",
+            "Silvally Type: Rock"
+        ],
+        [
+            "silvally-steel",
+            "Silvally Type: Steel"
+        ],
+        [
+            "silvally-water",
+            "Silvally Type: Water"
+        ]
+    ],
+    "minior": [
+        [
+            "minior-meteor",
+            "Minior Meteor Form"
+        ],
+        [
+            "minior-red-core",
+            "Minior Red Core"
+        ],
+        [
+            "minior-orange-core",
+            "Minior Orange Core"
+        ],
+        [
+            "minior-yellow-core",
+            "Minior Yellow Core"
+        ],
+        [
+            "minior-green-core",
+            "Minior Green Core"
+        ],
+        [
+            "minior-blue-core",
+            "Minior Blue Core"
+        ],
+        [
+            "minior-indigo-core",
+            "Minior Indigo Core"
+        ],
+        [
+            "minior-violet-core",
+            "Minior Violet Core"
+        ],
+        [
+            "minior-core-shiny",
+            "Shiny Minior Core"
+        ]
+    ],
+    "mimikyu": [
+        [
+            "mimikyu-busted",
+            "Mimikyu Busted Form"
+        ],
+        [
+            "mimikyu-disguised",
+            "Mimikyu Disguised Form"
+        ]
+    ],
+    "necrozma": [
+        [
+            "necrozma",
+            "Necrozma"
+        ],
+        [
+            "necrozma-dawn-wings",
+            "Dawn Wings Necrozma"
+        ],
+        [
+            "necrozma-dusk-mane",
+            "Dusk Mane Necrozma"
+        ],
+        [
+            "necrozma-ultra",
+            "Ultra Necrozma"
+        ]
+    ],
+    "magearna": [
+        [
+            "magearna",
+            "Magearna"
+        ],
+        [
+            "magearna-original-color",
+            "Original Color Magearna"
+        ],
+        [
+            "magearna-mega",
+            "Mega Magearna"
+        ],
+        [
+            "magearna-original-color-mega",
+            "Mega Original Color Magearna"
+        ]
+    ],
+    "cramorant": [
+        [
+            "cramorant",
+            "Cramorant"
+        ],
+        [
+            "cramorant-gorging",
+            "Cramorant Gorging Form"
+        ],
+        [
+            "cramorant-gulping",
+            "Cramorant Gulping Form"
+        ]
+    ],
+    "toxtricity": [
+        [
+            "toxtricity-amped",
+            "Toxtricity Amped Form"
+        ],
+        [
+            "toxtricity-low-key",
+            "Toxtricity Low Key Form"
+        ],
+        [
+            "toxtricity-gmax",
+            "Gigantamax Toxtricity"
+        ]
+    ],
+    "sinistea": [
+        [
+            "sinistea-phony",
+            "Sinistea Phony Form"
+        ],
+        [
+            "sinistea-antique",
+            "Sinistea Antique Form"
+        ]
+    ],
+    "polteageist": [
+        [
+            "polteageist-phony",
+            "Polteageist Phony Form"
+        ],
+        [
+            "polteageist-antique",
+            "Polteageist Antique Form"
+        ]
+    ],
+    "alcremie": [
+        [
+            "alcremie-caramel-swirl-berry",
+            "Berry Sweet Caramel Swirl Alcremie"
+        ],
+        [
+            "alcremie-caramel-swirl-clover",
+            "Clover Sweet Caramel Swirl Alcremie"
+        ],
+        [
+            "alcremie-caramel-swirl-flower",
+            "Flower Sweet Caramel Swirl Alcremie"
+        ],
+        [
+            "alcremie-caramel-swirl-love",
+            "Love Sweet Caramel Swirl Alcremie"
+        ],
+        [
+            "alcremie-caramel-swirl-ribbon",
+            "Ribbon Sweet Caramel Swirl Alcremie"
+        ],
+        [
+            "alcremie-caramel-swirl-star",
+            "Star Sweet Caramel Swirl Alcremie"
+        ],
+        [
+            "alcremie-caramel-swirl-strawberry",
+            "Strawberry Sweet Caramel Swirl Alcremie"
+        ],
+        [
+            "alcremie-lemon-cream-berry",
+            "Berry Sweet Lemon Cream Alcremie"
+        ],
+        [
+            "alcremie-lemon-cream-clover",
+            "Clover Sweet Lemon Cream Alcremie"
+        ],
+        [
+            "alcremie-lemon-cream-flower",
+            "Flower Sweet Lemon Cream Alcremie"
+        ],
+        [
+            "alcremie-lemon-cream-love",
+            "Love Sweet Lemon Cream Alcremie"
+        ],
+        [
+            "alcremie-lemon-cream-ribbon",
+            "Ribbon Sweet Lemon Cream Alcremie"
+        ],
+        [
+            "alcremie-lemon-cream-star",
+            "Star Sweet Lemon Cream Alcremie"
+        ],
+        [
+            "alcremie-lemon-cream-strawberry",
+            "Strawberry Sweet Lemon Cream Alcremie"
+        ],
+        [
+            "alcremie-matcha-cream-berry",
+            "Berry Sweet Matcha Cream Alcremie"
+        ],
+        [
+            "alcremie-matcha-cream-clover",
+            "Clover Sweet Matcha Cream Alcremie"
+        ],
+        [
+            "alcremie-matcha-cream-flower",
+            "Flower Sweet Matcha Cream Alcremie"
+        ],
+        [
+            "alcremie-matcha-cream-love",
+            "Love Sweet Matcha Cream Alcremie"
+        ],
+        [
+            "alcremie-matcha-cream-ribbon",
+            "Ribbon Sweet Matcha Cream Alcremie"
+        ],
+        [
+            "alcremie-matcha-cream-star",
+            "Star Sweet Matcha Cream Alcremie"
+        ],
+        [
+            "alcremie-matcha-cream-strawberry",
+            "Strawberry Sweet Matcha Cream Alcremie"
+        ],
+        [
+            "alcremie-mint-cream-berry",
+            "Berry Sweet Mint Cream Alcremie"
+        ],
+        [
+            "alcremie-mint-cream-clover",
+            "Clover Sweet Mint Cream Alcremie"
+        ],
+        [
+            "alcremie-mint-cream-flower",
+            "Flower Sweet Mint Cream Alcremie"
+        ],
+        [
+            "alcremie-mint-cream-love",
+            "Love Sweet Mint Cream Alcremie"
+        ],
+        [
+            "alcremie-mint-cream-ribbon",
+            "Ribbon Sweet Mint Cream Alcremie"
+        ],
+        [
+            "alcremie-mint-cream-star",
+            "Star Sweet Mint Cream Alcremie"
+        ],
+        [
+            "alcremie-mint-cream-strawberry",
+            "Strawberry Sweet Mint Cream Alcremie"
+        ],
+        [
+            "alcremie-rainbow-swirl-berry",
+            "Berry Sweet Rainbow Swirl Alcremie"
+        ],
+        [
+            "alcremie-rainbow-swirl-clover",
+            "Clover Sweet Rainbow Swirl Alcremie"
+        ],
+        [
+            "alcremie-rainbow-swirl-flower",
+            "Flower Sweet Rainbow Swirl Alcremie"
+        ],
+        [
+            "alcremie-rainbow-swirl-love",
+            "Love Sweet Rainbow Swirl Alcremie"
+        ],
+        [
+            "alcremie-rainbow-swirl-ribbon",
+            "Ribbon Sweet Rainbow Swirl Alcremie"
+        ],
+        [
+            "alcremie-rainbow-swirl-star",
+            "Star Sweet Rainbow Swirl Alcremie"
+        ],
+        [
+            "alcremie-rainbow-swirl-strawberry",
+            "Strawberry Sweet Rainbow Swirl Alcremie"
+        ],
+        [
+            "alcremie-ruby-cream-berry",
+            "Berry Sweet Ruby Cream Alcremie"
+        ],
+        [
+            "alcremie-ruby-cream-clover",
+            "Clover Sweet Ruby Cream Alcremie"
+        ],
+        [
+            "alcremie-ruby-cream-flower",
+            "Flower Sweet Ruby Cream Alcremie"
+        ],
+        [
+            "alcremie-ruby-cream-love",
+            "Love Sweet Ruby Cream Alcremie"
+        ],
+        [
+            "alcremie-ruby-cream-ribbon",
+            "Ribbon Sweet Ruby Cream Alcremie"
+        ],
+        [
+            "alcremie-ruby-cream-star",
+            "Star Sweet Ruby Cream Alcremie"
+        ],
+        [
+            "alcremie-ruby-cream-strawberry",
+            "Strawberry Sweet Ruby Cream Alcremie"
+        ],
+        [
+            "alcremie-ruby-swirl-berry",
+            "Berry Sweet Ruby Swirl Alcremie"
+        ],
+        [
+            "alcremie-ruby-swirl-clover",
+            "Clover Sweet Ruby Swirl Alcremie"
+        ],
+        [
+            "alcremie-ruby-swirl-flower",
+            "Flower Sweet Ruby Swirl Alcremie"
+        ],
+        [
+            "alcremie-ruby-swirl-love",
+            "Love Sweet Ruby Swirl Alcremie"
+        ],
+        [
+            "alcremie-ruby-swirl-ribbon",
+            "Ribbon Sweet Ruby Swirl Alcremie"
+        ],
+        [
+            "alcremie-ruby-swirl-star",
+            "Star Sweet Ruby Swirl Alcremie"
+        ],
+        [
+            "alcremie-ruby-swirl-strawberry",
+            "Strawberry Sweet Ruby Swirl Alcremie"
+        ],
+        [
+            "alcremie-salted-cream-berry",
+            "Berry Sweet Salted Cream Alcremie"
+        ],
+        [
+            "alcremie-salted-cream-clover",
+            "Clover Sweet Salted Cream Alcremie"
+        ],
+        [
+            "alcremie-salted-cream-flower",
+            "Flower Sweet Salted Cream Alcremie"
+        ],
+        [
+            "alcremie-salted-cream-love",
+            "Love Sweet Salted Cream Alcremie"
+        ],
+        [
+            "alcremie-salted-cream-ribbon",
+            "Ribbon Sweet Salted Cream Alcremie"
+        ],
+        [
+            "alcremie-salted-cream-star",
+            "Star Sweet Salted Cream Alcremie"
+        ],
+        [
+            "alcremie-salted-cream-strawberry",
+            "Strawberry Sweet Salted Cream Alcremie"
+        ],
+        [
+            "alcremie-vanilla-cream-berry",
+            "Berry Sweet Vanilla Cream Alcremie"
+        ],
+        [
+            "alcremie-vanilla-cream-clover",
+            "Clover Sweet Vanilla Cream Alcremie"
+        ],
+        [
+            "alcremie-vanilla-cream-flower",
+            "Flower Sweet Vanilla Cream Alcremie"
+        ],
+        [
+            "alcremie-vanilla-cream-love",
+            "Love Sweet Vanilla Cream Alcremie"
+        ],
+        [
+            "alcremie-vanilla-cream-ribbon",
+            "Ribbon Sweet Vanilla Cream Alcremie"
+        ],
+        [
+            "alcremie-vanilla-cream-star",
+            "Star Sweet Vanilla Cream Alcremie"
+        ],
+        [
+            "alcremie-vanilla-cream-strawberry",
+            "Strawberry Sweet Vanilla Cream Alcremie"
+        ],
+        [
+            "alcremie-berry-shiny",
+            "Shiny Berry Sweet Alcremie"
+        ],
+        [
+            "alcremie-clover-shiny",
+            "Shiny Clover Sweet Alcremie"
+        ],
+        [
+            "alcremie-flower-shiny",
+            "Shiny Flower Sweet Alcremie"
+        ],
+        [
+            "alcremie-love-shiny",
+            "Shiny Love Sweet Alcremie"
+        ],
+        [
+            "alcremie-ribbon-shiny",
+            "Shiny Ribbon Sweet Alcremie"
+        ],
+        [
+            "alcremie-star-shiny",
+            "Shiny Star Sweet Alcremie"
+        ],
+        [
+            "alcremie-strawberry-shiny",
+            "Shiny Strawberry Sweet Alcremie"
+        ],
+        [
+            "alcremie-gmax-shiny",
+            "shiny Gigantamax Alcremie"
+        ],
+        [
+            "alcremie-gmax",
+            "Gigantamax Alcremie"
+        ]
+    ],
+    "eiscue": [
+        [
+            "eiscue-ice-face",
+            "Ice Face Eiscue"
+        ],
+        [
+            "eiscue-noice-face",
+            "Noice Face Eiscue"
+        ]
+    ],
+    "morpeko": [
+        [
+            "morpeko-full-belly-mode",
+            "Morpeko Full Belly Mode"
+        ],
+        [
+            "morpeko-hangry-mode",
+            "Morpeko Hangry Mode"
+        ]
+    ],
+    "zacian": [
+        [
+            "zacian-hero-of-many-battles",
+            "Zacian Hero of Many Battles"
+        ],
+        [
+            "zacian-crowned-sword",
+            "Zacian Crowned Sword"
+        ]
+    ],
+    "zamazenta": [
+        [
+            "zamazenta-hero-of-many-battles",
+            "Zamazenta Hero of Many Battles"
+        ],
+        [
+            "zamazenta-crowned-shield",
+            "Zamazenta Crowned Shield"
+        ]
+    ],
+    "eternatus": [
+        [
+            "eternatus",
+            "Eternatus"
+        ],
+        [
+            "eternatus-eternamax",
+            "Eternamax Eternatus"
+        ]
+    ],
+    "urshifu": [
+        [
+            "urshifu-rapid-strike-style",
+            "Urshifu Rapid Strike Style"
+        ],
+        [
+            "urshifu-single-strike-style",
+            "Urshifu Single Strike Style"
+        ],
+        [
+            "urshifu-rapid-strike-style-gmax",
+            "Gigantamax Urshifu Rapid Strike Style"
+        ],
+        [
+            "urshifu-single-strike-style-gmax",
+            "Gigantamax Urshifu Single Strike Style"
+        ]
+    ],
+    "zarude": [
+        [
+            "zarude",
+            "Zarude"
+        ],
+        [
+            "zarude-dada",
+            "Dada Zarude"
+        ]
+    ],
+    "calyrex": [
+        [
+            "calyrex",
+            "Calyrex"
+        ],
+        [
+            "calyrex-ice-rider",
+            "Calyrex Ice Rider"
+        ],
+        [
+            "calyrex-shadow-rider",
+            "Calyrex Shadow Rider"
+        ]
+    ],
+    "ursaluna": [
+        [
+            "ursaluna",
+            "Ursaluna"
+        ],
+        [
+            "ursaluna-bloodmoon",
+            "Bloodmoon Ursaluna"
+        ]
+    ],
+    "enamorus": [
+        [
+            "enamorus-incarnate",
+            "Enamorus Incarnate Forme"
+        ],
+        [
+            "enamorus-therian",
+            "Enamorus Therian Forme"
+        ]
+    ],
+    "maushold": [
+        [
+            "maushold-family-of-four",
+            "Maushold Family of Four"
+        ],
+        [
+            "maushold-family-of-three",
+            "Maushold Family of Three"
+        ]
+    ],
+    "squawkabilly": [
+        [
+            "squawkabilly-blue-plumage",
+            "Squawkabilly Blue Plumage"
+        ],
+        [
+            "squawkabilly-green-plumage",
+            "Squawkabilly Green Plumage"
+        ],
+        [
+            "squawkabilly-white-plumage",
+            "Squawkabilly Yellow Plumage"
+        ],
+        [
+            "squawkabilly-yellow-plumage",
+            "Squawkabilly White Plumage"
+        ]
+    ],
+    "palafin": [
+        [
+            "palafin-zero",
+            "Palafin Zero Form"
+        ],
+        [
+            "palafin-hero",
+            "Palafin Hero Form"
+        ]
+    ],
+    "tatsugiri": [
+        [
+            "tatsugiri-curly",
+            "Tatsugiri Curly Form"
+        ],
+        [
+            "tatsugiri-droopy",
+            "Tatsugiri Droopy Form"
+        ],
+        [
+            "tatsugiri-stretchy",
+            "Tatsugiri Stretchy Form"
+        ],
+        [
+            "tatsugiri-curly-mega",
+            "Mega Tatsugiri Curly Form"
+        ],
+        [
+            "tatsugiri-droopy-mega",
+            "Mega Tatsugiri Droopy Form"
+        ],
+        [
+            "tatsugiri-stretchy-mega",
+            "Mega Tatsugiri Stretchy Form"
+        ]
+    ],
+    "dudunsparce": [
+        [
+            "dudunsparce-two-segment",
+            "Dudunsparce Two-Segment Form"
+        ],
+        [
+            "dudunsparce-three-segment",
+            "Dudunsparce Three-Segment Form"
+        ]
+    ],
+    "gimmighoul": [
+        [
+            "gimmighoul-chest",
+            "Gimmighoul Chest Form"
+        ],
+        [
+            "gimmighoul-roaming",
+            "Gimmighoul Roaming Form"
+        ]
+    ],
+    "koraidon": [
+        [
+            "koraidon-apex-build",
+            "Koraidon Apex Build"
+        ],
+        [
+            "koraidon-limited-build",
+            "Koraidon Limited Build"
+        ],
+        [
+            "koraidon-sprinting-build",
+            "Koraidon Sprinting Build"
+        ],
+        [
+            "koraidon-swimming-build",
+            "Koraidon Swimming Build"
+        ],
+        [
+            "koraidon-gliding-build",
+            "Koraidon Gliding Build"
+        ]
+    ],
+    "miraidon": [
+        [
+            "miraidon-ultimate-mode",
+            "Miraidon Ultimate Mode"
+        ],
+        [
+            "miraidon-low-power-mode",
+            "Miraidon Low-Power Mode"
+        ],
+        [
+            "miraidon-drive-mode",
+            "Miraidon Drive Mode"
+        ],
+        [
+            "miraidon-aquatic-mode",
+            "Miraidon Aquatic Mode"
+        ],
+        [
+            "miraidon-glide-mode",
+            "Miraidon Glide Mode"
+        ]
+    ],
+    "poltchageist": [
+        [
+            "poltchageist-counterfeit",
+            "Poltchageist Counterfeit Form"
+        ],
+        [
+            "poltchageist-artisan",
+            "Poltchageist Artisan Form"
+        ]
+    ],
+    "sinistcha": [
+        [
+            "sinistcha-unremarkable",
+            "Sinistcha Unremarkable Form"
+        ],
+        [
+            "sinistcha-masterpiece",
+            "Sinistcha Masterpiece Form"
+        ]
+    ],
+    "ogerpon": [
+        [
+            "ogerpon-teal-mask",
+            "Teal Mask Ogerpon"
+        ],
+        [
+            "ogerpon-cornerstone-mask",
+            "Cornerstone Mask Ogerpon"
+        ],
+        [
+            "ogerpon-hearthflame-mask",
+            "Hearthflame Mask Ogerpon"
+        ],
+        [
+            "ogerpon-wellspring-mask",
+            "Wellspring Mask Ogerpon"
+        ],
+        [
+            "ogerpon-teal-mask-terastallized",
+            "Terastallized Teal Mask Ogerpon"
+        ],
+        [
+            "ogerpon-cornerstone-mask-terastallized",
+            "Terastallized Cornerstone Mask Ogerpon"
+        ],
+        [
+            "ogerpon-hearthflame-mask-terastallized",
+            "Terastallized Hearthflame Mask Ogerpon"
+        ],
+        [
+            "ogerpon-wellspring-mask-terastallized",
+            "Terastallized Wellspring Mask Ogerpon"
+        ]
+    ],
+    "terapagos": [
+        [
+            "terapagos-normal",
+            "Terapagos Normal Form"
+        ],
+        [
+            "terapagos-terastal",
+            "Terapagos Terastal Form"
+        ],
+        [
+            "terapagos-stellar",
+            "Terapagos Stellar Form"
+        ]
+    ],
+    "venusaur": [
+        [
+            "venusaur-male",
+            "Male Venusaur"
+        ],
+        [
+            "venusaur-female",
+            "Female Venusaur"
+        ],
+        [
+            "venusaur-mega",
+            "Mega Venusaur"
+        ],
+        [
+            "venusaur-gmax",
+            "Gigantamax Venusaur"
+        ]
+    ],
+    "charizard": [
+        [
+            "charizard",
+            "Charizard"
+        ],
+        [
+            "charizard-mega-x",
+            "Mega Charizard X"
+        ],
+        [
+            "charizard-mega-y",
+            "Mega Charizard Y"
+        ],
+        [
+            "charizard-gmax",
+            "Gigantamax Charizard"
+        ]
+    ],
+    "blastoise": [
+        [
+            "blastoise",
+            "Blastoise"
+        ],
+        [
+            "blastoise-mega",
+            "Mega Blastoise"
+        ],
+        [
+            "blastoise-gmax",
+            "Gigantamax Blastoise"
+        ]
+    ],
+    "beedrill": [
+        [
+            "beedrill",
+            "Beedrill"
+        ],
+        [
+            "beedrill-mega",
+            "Mega Beedrill"
+        ]
+    ],
+    "pidgeot": [
+        [
+            "pidgeot",
+            "Pidgeot"
+        ],
+        [
+            "pidgeot-mega",
+            "Mega Pidgeot"
+        ]
+    ],
+    "clefable": [
+        [
+            "clefable",
+            "Clefable"
+        ],
+        [
+            "clefable-mega",
+            "Mega Clefable"
+        ]
+    ],
+    "alakazam": [
+        [
+            "alakazam-male",
+            "Male Alakazam"
+        ],
+        [
+            "alakazam-female",
+            "Female Alakazam"
+        ],
+        [
+            "alakazam-mega",
+            "Mega Alakazam"
+        ]
+    ],
+    "victreebel": [
+        [
+            "victreebel",
+            "Victreebel"
+        ],
+        [
+            "victreebel-mega",
+            "Mega Victreebel"
+        ]
+    ],
+    "gengar": [
+        [
+            "gengar",
+            "Gengar"
+        ],
+        [
+            "gengar-mega",
+            "Mega Gengar"
+        ],
+        [
+            "gengar-gmax",
+            "Gigantamax Gengar"
+        ]
+    ],
+    "kangaskhan": [
+        [
+            "kangaskhan",
+            "Kangaskhan"
+        ],
+        [
+            "kangaskhan-mega",
+            "Mega Kangaskhan"
+        ]
+    ],
+    "starmie": [
+        [
+            "starmie",
+            "Starmie"
+        ],
+        [
+            "starmie-mega",
+            "Mega Starmie"
+        ]
+    ],
+    "pinsir": [
+        [
+            "pinsir",
+            "Pinsir"
+        ],
+        [
+            "pinsir-mega",
+            "Mega Pinsir"
+        ]
+    ],
+    "gyarados": [
+        [
+            "gyarados-male",
+            "Male Gyarados"
+        ],
+        [
+            "gyarados-female",
+            "Female Gyarados"
+        ],
+        [
+            "gyarados-mega",
+            "Mega Gyarados"
+        ]
+    ],
+    "aerodactyl": [
+        [
+            "aerodactyl",
+            "Aerodactyl"
+        ],
+        [
+            "aerodactyl-mega",
+            "Mega Aerodactyl"
+        ]
+    ],
+    "dragonite": [
+        [
+            "dragonite",
+            "Dragonite"
+        ],
+        [
+            "dragonite-mega",
+            "Mega Dragonite"
+        ]
+    ],
+    "mewtwo": [
+        [
+            "mewtwo",
+            "Mewtwo"
+        ],
+        [
+            "mewtwo-mega-x",
+            "Mega Mewtwo X"
+        ],
+        [
+            "mewtwo-mega-y",
+            "Mega Mewtwo Y"
+        ]
+    ],
+    "meganium": [
+        [
+            "meganium-male",
+            "Male Meganium"
+        ],
+        [
+            "meganium-female",
+            "Female Meganium"
+        ],
+        [
+            "meganium-mega",
+            "Mega Meganium"
+        ]
+    ],
+    "feraligatr": [
+        [
+            "feraligatr",
+            "Feraligatr"
+        ],
+        [
+            "feraligatr-mega",
+            "Mega Feraligatr"
+        ]
+    ],
+    "ampharos": [
+        [
+            "ampharos",
+            "Ampharos"
+        ],
+        [
+            "ampharos-mega",
+            "Mega Ampharos"
+        ]
+    ],
+    "steelix": [
+        [
+            "steelix-male",
+            "Male Steelix"
+        ],
+        [
+            "steelix-female",
+            "Female Steelix"
+        ],
+        [
+            "steelix-mega",
+            "Mega Steelix"
+        ]
+    ],
+    "scizor": [
+        [
+            "scizor-male",
+            "Male Scizor"
+        ],
+        [
+            "scizor-female",
+            "Female Scizor"
+        ],
+        [
+            "scizor-mega",
+            "Mega Scizor"
+        ]
+    ],
+    "heracross": [
+        [
+            "heracross-male",
+            "Male Heracross"
+        ],
+        [
+            "heracross-female",
+            "Female Heracross"
+        ],
+        [
+            "heracross-mega",
+            "Mega Heracross"
+        ]
+    ],
+    "skarmory": [
+        [
+            "skarmory",
+            "Skarmory"
+        ],
+        [
+            "skarmory-mega",
+            "Mega Skarmory"
+        ]
+    ],
+    "houndoom": [
+        [
+            "houndoom-male",
+            "Male Houndoom"
+        ],
+        [
+            "houndoom-female",
+            "Female Houndoom"
+        ],
+        [
+            "houndoom-mega",
+            "Mega Houndoom"
+        ]
+    ],
+    "tyranitar": [
+        [
+            "tyranitar",
+            "Tyranitar"
+        ],
+        [
+            "tyranitar-mega",
+            "Mega Tyranitar"
+        ]
+    ],
+    "sceptile": [
+        [
+            "sceptile",
+            "Sceptile"
+        ],
+        [
+            "sceptile-mega",
+            "Mega Sceptile"
+        ]
+    ],
+    "blaziken": [
+        [
+            "blaziken-male",
+            "Male Blaziken"
+        ],
+        [
+            "blaziken-female",
+            "Female Blaziken"
+        ],
+        [
+            "blaziken-mega",
+            "Mega Blaziken"
+        ]
+    ],
+    "swampert": [
+        [
+            "swampert",
+            "Swampert"
+        ],
+        [
+            "swampert-mega",
+            "Mega Swampert"
+        ]
+    ],
+    "gardevoir": [
+        [
+            "gardevoir",
+            "Gardevoir"
+        ],
+        [
+            "gardevoir-mega",
+            "Mega Gardevoir"
+        ]
+    ],
+    "sableye": [
+        [
+            "sableye",
+            "Sableye"
+        ],
+        [
+            "sableye-mega",
+            "Mega Sableye"
+        ]
+    ],
+    "mawile": [
+        [
+            "mawile",
+            "Mawile"
+        ],
+        [
+            "mawile-mega",
+            "Mega Mawile"
+        ]
+    ],
+    "aggron": [
+        [
+            "aggron",
+            "Aggron"
+        ],
+        [
+            "aggron-mega",
+            "Mega Aggron"
+        ]
+    ],
+    "medicham": [
+        [
+            "medicham-male",
+            "Male Medicham"
+        ],
+        [
+            "medicham-female",
+            "Female Medicham"
+        ],
+        [
+            "medicham-mega",
+            "Mega Medicham"
+        ]
+    ],
+    "manectric": [
+        [
+            "manectric",
+            "Manectric"
+        ],
+        [
+            "manectric-mega",
+            "Mega Manectric"
+        ]
+    ],
+    "sharpedo": [
+        [
+            "sharpedo",
+            "Sharpedo"
+        ],
+        [
+            "sharpedo-mega",
+            "Mega Sharpedo"
+        ]
+    ],
+    "camerupt": [
+        [
+            "camerupt-male",
+            "Male Camerupt"
+        ],
+        [
+            "camerupt-female",
+            "Female Camerupt"
+        ],
+        [
+            "camerupt-mega",
+            "Mega Camerupt"
+        ]
+    ],
+    "altaria": [
+        [
+            "altaria",
+            "Altaria"
+        ],
+        [
+            "altaria-mega",
+            "Mega Altaria"
+        ]
+    ],
+    "banette": [
+        [
+            "banette",
+            "Banette"
+        ],
+        [
+            "banette-mega",
+            "Mega Banette"
+        ]
+    ],
+    "chimecho": [
+        [
+            "chimecho",
+            "Chimecho"
+        ],
+        [
+            "chimecho-mega",
+            "Mega Chimecho"
+        ]
+    ],
+    "absol": [
+        [
+            "absol",
+            "Absol"
+        ],
+        [
+            "absol-mega",
+            "Mega Absol"
+        ],
+        [
+            "absol-mega-z",
+            "Mega Absol Z"
+        ]
+    ],
+    "glalie": [
+        [
+            "glalie",
+            "Glalie"
+        ],
+        [
+            "glalie-mega",
+            "Mega Glalie"
+        ]
+    ],
+    "salamence": [
+        [
+            "salamence",
+            "Salamence"
+        ],
+        [
+            "salamence-mega",
+            "Mega Salamence"
+        ]
+    ],
+    "metagross": [
+        [
+            "metagross",
+            "Metagross"
+        ],
+        [
+            "metagross-mega",
+            "Mega Metagross"
+        ]
+    ],
+    "latias": [
+        [
+            "latias",
+            "Latias"
+        ],
+        [
+            "latias-mega",
+            "Mega Latias"
+        ]
+    ],
+    "latios": [
+        [
+            "latios",
+            "Latios"
+        ],
+        [
+            "latios-mega",
+            "Mega Latios"
+        ]
+    ],
+    "rayquaza": [
+        [
+            "rayquaza",
+            "Rayquaza"
+        ],
+        [
+            "rayquaza-mega",
+            "Mega Rayquaza"
+        ]
+    ],
+    "staraptor": [
+        [
+            "staraptor-male",
+            "Male Staraptor"
+        ],
+        [
+            "staraptor-female",
+            "Female Staraptor"
+        ],
+        [
+            "staraptor-mega",
+            "Mega Staraptor"
+        ]
+    ],
+    "lopunny": [
+        [
+            "lopunny",
+            "Lopunny"
+        ],
+        [
+            "lopunny-mega",
+            "Mega Lopunny"
+        ]
+    ],
+    "garchomp": [
+        [
+            "garchomp-male",
+            "Male Garchomp"
+        ],
+        [
+            "garchomp-female",
+            "Female Garchomp"
+        ],
+        [
+            "garchomp-mega",
+            "Mega Garchomp"
+        ],
+        [
+            "garchomp-mega-z",
+            "Mega Garchomp Z"
+        ]
+    ],
+    "lucario": [
+        [
+            "lucario",
+            "Lucario"
+        ],
+        [
+            "lucario-mega",
+            "Mega Lucario"
+        ],
+        [
+            "lucario-mega-z",
+            "Mega Lucario Z"
+        ]
+    ],
+    "abomasnow": [
+        [
+            "abomasnow-male",
+            "Male Abomasnow"
+        ],
+        [
+            "abomasnow-female",
+            "Female Abomasnow"
+        ],
+        [
+            "abomasnow-mega",
+            "Mega Abomasnow"
+        ]
+    ],
+    "gallade": [
+        [
+            "gallade",
+            "Gallade"
+        ],
+        [
+            "gallade-mega",
+            "Mega Gallade"
+        ]
+    ],
+    "froslass": [
+        [
+            "froslass",
+            "Froslass"
+        ],
+        [
+            "froslass-mega",
+            "Mega Froslass"
+        ]
+    ],
+    "heatran": [
+        [
+            "heatran",
+            "Heatran"
+        ],
+        [
+            "heatran-mega",
+            "Mega Heatran"
+        ]
+    ],
+    "darkrai": [
+        [
+            "darkrai",
+            "Darkrai"
+        ],
+        [
+            "darkrai-mega",
+            "Mega Darkrai"
+        ]
+    ],
+    "emboar": [
+        [
+            "emboar",
+            "Emboar"
+        ],
+        [
+            "emboar-mega",
+            "Mega Emboar"
+        ]
+    ],
+    "excadrill": [
+        [
+            "excadrill",
+            "Excadrill"
+        ],
+        [
+            "excadrill-mega",
+            "Mega Excadrill"
+        ]
+    ],
+    "audino": [
+        [
+            "audino",
+            "Audino"
+        ],
+        [
+            "audino-mega",
+            "Mega Audino"
+        ]
+    ],
+    "scolipede": [
+        [
+            "scolipede",
+            "Scolipede"
+        ],
+        [
+            "scolipede-mega",
+            "Mega Scolipede"
+        ]
+    ],
+    "scrafty": [
+        [
+            "scrafty",
+            "Scrafty"
+        ],
+        [
+            "scrafty-mega",
+            "Mega Scrafty"
+        ]
+    ],
+    "eelektross": [
+        [
+            "eelektross",
+            "Eelektross"
+        ],
+        [
+            "eelektross-mega",
+            "Mega Eelektross"
+        ]
+    ],
+    "chandelure": [
+        [
+            "chandelure",
+            "Chandelure"
+        ],
+        [
+            "chandelure-mega",
+            "Mega Chandelure"
+        ]
+    ],
+    "golurk": [
+        [
+            "golurk",
+            "Golurk"
+        ],
+        [
+            "golurk-mega",
+            "Mega Golurk"
+        ]
+    ],
+    "chesnaught": [
+        [
+            "chesnaught",
+            "Chesnaught"
+        ],
+        [
+            "chesnaught-mega",
+            "Mega Chesnaught"
+        ]
+    ],
+    "delphox": [
+        [
+            "delphox",
+            "Delphox"
+        ],
+        [
+            "delphox-mega",
+            "Mega Delphox"
+        ]
+    ],
+    "pyroar": [
+        [
+            "pyroar-male",
+            "Male Pyroar"
+        ],
+        [
+            "pyroar-female",
+            "Female Pyroar"
+        ],
+        [
+            "pyroar-mega",
+            "Mega Pyroar"
+        ]
+    ],
+    "meowstic": [
+        [
+            "meowstic-male",
+            "Male Meowstic"
+        ],
+        [
+            "meowstic-female",
+            "Female Meowstic"
+        ],
+        [
+            "meowstic-mega",
+            "Mega Meowstic"
+        ]
+    ],
+    "malamar": [
+        [
+            "malamar",
+            "Malamar"
+        ],
+        [
+            "malamar-mega",
+            "Mega Malamar"
+        ]
+    ],
+    "barbaracle": [
+        [
+            "barbaracle",
+            "Barbaracle"
+        ],
+        [
+            "barbaracle-mega",
+            "Mega Barbaracle"
+        ]
+    ],
+    "dragalge": [
+        [
+            "dragalge",
+            "Dragalge"
+        ],
+        [
+            "dragalge-mega",
+            "Mega Dragalge"
+        ]
+    ],
+    "hawlucha": [
+        [
+            "hawlucha",
+            "Hawlucha"
+        ],
+        [
+            "hawlucha-mega",
+            "Mega Hawlucha"
+        ]
+    ],
+    "diancie": [
+        [
+            "diancie",
+            "Diancie"
+        ],
+        [
+            "diancie-mega",
+            "Mega Diancie"
+        ]
+    ],
+    "crabominable": [
+        [
+            "crabominable",
+            "Crabominable"
+        ],
+        [
+            "crabominable-mega",
+            "Mega Crabominable"
+        ]
+    ],
+    "golisopod": [
+        [
+            "golisopod",
+            "Golisopod"
+        ],
+        [
+            "golisopod-mega",
+            "Mega Golisopod"
+        ]
+    ],
+    "drampa": [
+        [
+            "drampa",
+            "Drampa"
+        ],
+        [
+            "drampa-mega",
+            "Mega Drampa"
+        ]
+    ],
+    "zeraora": [
+        [
+            "zeraora",
+            "Zeraora"
+        ],
+        [
+            "zeraora-mega",
+            "Mega Zeraora"
+        ]
+    ],
+    "falinks": [
+        [
+            "falinks",
+            "Falinks"
+        ],
+        [
+            "falinks-mega",
+            "Mega Falinks"
+        ]
+    ],
+    "scovillain": [
+        [
+            "scovillain",
+            "Scovillain"
+        ],
+        [
+            "scovillain-mega",
+            "Mega Scovillain"
+        ]
+    ],
+    "glimmora": [
+        [
+            "glimmora",
+            "Glimmora"
+        ],
+        [
+            "glimmora-mega",
+            "Mega Glimmora"
+        ]
+    ],
+    "baxcalibur": [
+        [
+            "baxcalibur",
+            "Baxcalibur"
+        ],
+        [
+            "baxcalibur-mega",
+            "Mega Baxcalibur"
+        ]
+    ],
+    "butterfree": [
+        [
+            "butterfree-male",
+            "Male Butterfree"
+        ],
+        [
+            "butterfree-female",
+            "Female Butterfree"
+        ],
+        [
+            "butterfree-gmax",
+            "Gigantamax Butterfree"
+        ]
+    ],
+    "machamp": [
+        [
+            "machamp",
+            "Machamp"
+        ],
+        [
+            "machamp-gmax",
+            "Gigantamax Machamp"
+        ]
+    ],
+    "kingler": [
+        [
+            "kingler",
+            "Kingler"
+        ],
+        [
+            "kingler-gmax",
+            "Gigantamax Kingler"
+        ]
+    ],
+    "lapras": [
+        [
+            "lapras",
+            "Lapras"
+        ],
+        [
+            "lapras-gmax",
+            "Gigantamax Lapras"
+        ]
+    ],
+    "eevee": [
+        [
+            "eevee-male",
+            "Male Eevee"
+        ],
+        [
+            "eevee-female",
+            "Female Eevee"
+        ],
+        [
+            "eevee-gmax",
+            "Gigantamax Eevee"
+        ]
+    ],
+    "snorlax": [
+        [
+            "snorlax",
+            "Snorlax"
+        ],
+        [
+            "snorlax-gmax",
+            "Gigantamax Snorlax"
+        ]
+    ],
+    "garbodor": [
+        [
+            "garbodor",
+            "Garbodor"
+        ],
+        [
+            "garbodor-gmax",
+            "Gigantamax Garbodor"
+        ]
+    ],
+    "melmetal": [
+        [
+            "melmetal",
+            "Melmetal"
+        ],
+        [
+            "melmetal-gmax",
+            "Gigantamax Melmetal"
+        ]
+    ],
+    "corviknight": [
+        [
+            "corviknight",
+            "Corviknight"
+        ],
+        [
+            "corviknight-gmax",
+            "Gigantamax Corviknight"
+        ]
+    ],
+    "orbeetle": [
+        [
+            "orbeetle",
+            "Orbeetle"
+        ],
+        [
+            "orbeetle-gmax",
+            "Gigantamax Orbeetle"
+        ]
+    ],
+    "drednaw": [
+        [
+            "drednaw",
+            "Drednaw"
+        ],
+        [
+            "drednaw-gmax",
+            "Gigantamax Drednaw"
+        ]
+    ],
+    "coalossal": [
+        [
+            "coalossal",
+            "Coalossal"
+        ],
+        [
+            "coalossal-gmax",
+            "Gigantamax Coalossal"
+        ]
+    ],
+    "flapple": [
+        [
+            "flapple",
+            "Flapple"
+        ],
+        [
+            "flapple-gmax",
+            "Gigantamax Flapple"
+        ]
+    ],
+    "appletun": [
+        [
+            "appletun",
+            "Appletun"
+        ],
+        [
+            "appletun-gmax",
+            "Gigantamax Appletun"
+        ]
+    ],
+    "sandaconda": [
+        [
+            "sandaconda",
+            "Sandaconda"
+        ],
+        [
+            "sandaconda-gmax",
+            "Gigantamax Sandaconda"
+        ]
+    ],
+    "centiskorch": [
+        [
+            "centiskorch",
+            "Centiskorch"
+        ],
+        [
+            "centiskorch-gmax",
+            "Gigantamax Centiskorch"
+        ]
+    ],
+    "hatterene": [
+        [
+            "hatterene",
+            "Hatterene"
+        ],
+        [
+            "hatterene-gmax",
+            "Gigantamax Hatterene"
+        ]
+    ],
+    "grimmsnarl": [
+        [
+            "grimmsnarl",
+            "Grimmsnarl"
+        ],
+        [
+            "grimmsnarl-gmax",
+            "Gigantamax Grimmsnarl"
+        ]
+    ],
+    "copperajah": [
+        [
+            "copperajah",
+            "Copperajah"
+        ],
+        [
+            "copperajah-gmax",
+            "Gigantamax Copperajah"
+        ]
+    ],
+    "duraludon": [
+        [
+            "duraludon",
+            "Duraludon"
+        ],
+        [
+            "duraludon-gmax",
+            "Gigantamax Duraludon"
+        ]
+    ],
+    "rillaboom": [
+        [
+            "rillaboom",
+            "Rillaboom"
+        ],
+        [
+            "rillaboom-gmax",
+            "Gigantamax Rillaboom"
+        ]
+    ],
+    "cinderace": [
+        [
+            "cinderace",
+            "Cinderace"
+        ],
+        [
+            "cinderace-gmax",
+            "Gigantamax Cinderace"
+        ]
+    ],
+    "inteleon": [
+        [
+            "inteleon",
+            "Inteleon"
+        ],
+        [
+            "inteleon-gmax",
+            "Gigantamax Inteleon"
+        ]
+    ],
+    "zubat": [
+        [
+            "zubat-male",
+            "Male Zubat"
+        ],
+        [
+            "zubat-female",
+            "Female Zubat"
+        ]
+    ],
+    "golbat": [
+        [
+            "golbat-male",
+            "Male Golbat"
+        ],
+        [
+            "golbat-female",
+            "Female Golbat"
+        ]
+    ],
+    "gloom": [
+        [
+            "gloom-male",
+            "Male Gloom"
+        ],
+        [
+            "gloom-female",
+            "Female Gloom"
+        ]
+    ],
+    "vileplume": [
+        [
+            "vileplume-male",
+            "Male Vileplume"
+        ],
+        [
+            "vileplume-female",
+            "Female Vileplume"
+        ]
+    ],
+    "kadabra": [
+        [
+            "kadabra-male",
+            "Male Kadabra"
+        ],
+        [
+            "kadabra-female",
+            "Female Kadabra"
+        ]
+    ],
+    "doduo": [
+        [
+            "doduo-male",
+            "Male Doduo"
+        ],
+        [
+            "doduo-female",
+            "Female Doduo"
+        ]
+    ],
+    "dodrio": [
+        [
+            "dodrio-male",
+            "Male Dodrio"
+        ],
+        [
+            "dodrio-female",
+            "Female Dodrio"
+        ]
+    ],
+    "hypno": [
+        [
+            "hypno-male",
+            "Male Hypno"
+        ],
+        [
+            "hypno-female",
+            "Female Hypno"
+        ]
+    ],
+    "rhyhorn": [
+        [
+            "rhyhorn-male",
+            "Male Rhyhorn"
+        ],
+        [
+            "rhyhorn-female",
+            "Female Rhyhorn"
+        ]
+    ],
+    "rhydon": [
+        [
+            "rhydon-male",
+            "Male Rhydon"
+        ],
+        [
+            "rhydon-female",
+            "Female Rhydon"
+        ]
+    ],
+    "goldeen": [
+        [
+            "goldeen-male",
+            "Male Goldeen"
+        ],
+        [
+            "goldeen-female",
+            "Female Goldeen"
+        ]
+    ],
+    "seaking": [
+        [
+            "seaking-male",
+            "Male Seaking"
+        ],
+        [
+            "seaking-female",
+            "Female Seaking"
+        ]
+    ],
+    "scyther": [
+        [
+            "scyther-male",
+            "Male Scyther"
+        ],
+        [
+            "scyther-female",
+            "Female Scyther"
+        ]
+    ],
+    "magikarp": [
+        [
+            "magikarp-male",
+            "Male Magikarp"
+        ],
+        [
+            "magikarp-female",
+            "Female Magikarp"
+        ]
+    ],
+    "ledyba": [
+        [
+            "ledyba-male",
+            "Male Ledyba"
+        ],
+        [
+            "ledyba-female",
+            "Female Ledyba"
+        ]
+    ],
+    "ledian": [
+        [
+            "ledian-male",
+            "Male Ledian"
+        ],
+        [
+            "ledian-female",
+            "Female Ledian"
+        ]
+    ],
+    "xatu": [
+        [
+            "xatu-male",
+            "Male Xatu"
+        ],
+        [
+            "xatu-female",
+            "Female Xatu"
+        ]
+    ],
+    "sudowoodo": [
+        [
+            "sudowoodo-male",
+            "Male Sudowoodo"
+        ],
+        [
+            "sudowoodo-female",
+            "Female Sudowoodo"
+        ]
+    ],
+    "politoed": [
+        [
+            "politoed-male",
+            "Male Politoed"
+        ],
+        [
+            "politoed-female",
+            "Female Politoed"
+        ]
+    ],
+    "aipom": [
+        [
+            "aipom-male",
+            "Male Aipom"
+        ],
+        [
+            "aipom-female",
+            "Female Aipom"
+        ]
+    ],
+    "quagsire": [
+        [
+            "quagsire-male",
+            "Male Quagsire"
+        ],
+        [
+            "quagsire-female",
+            "Female Quagsire"
+        ]
+    ],
+    "murkrow": [
+        [
+            "murkrow-male",
+            "Male Murkrow"
+        ],
+        [
+            "murkrow-female",
+            "Female Murkrow"
+        ]
+    ],
+    "wobbuffet": [
+        [
+            "wobbuffet-male",
+            "Male Wobbuffet"
+        ],
+        [
+            "wobbuffet-female",
+            "Female Wobbuffet"
+        ]
+    ],
+    "girafarig": [
+        [
+            "girafarig-male",
+            "Male Girafarig"
+        ],
+        [
+            "girafarig-female",
+            "Female Girafarig"
+        ]
+    ],
+    "gligar": [
+        [
+            "gligar-male",
+            "Male Gligar"
+        ],
+        [
+            "gligar-female",
+            "Female Gligar"
+        ]
+    ],
+    "ursaring": [
+        [
+            "ursaring-male",
+            "Male Ursaring"
+        ],
+        [
+            "ursaring-female",
+            "Female Ursaring"
+        ]
+    ],
+    "piloswine": [
+        [
+            "piloswine-male",
+            "Male Piloswine"
+        ],
+        [
+            "piloswine-female",
+            "Female Piloswine"
+        ]
+    ],
+    "octillery": [
+        [
+            "octillery-male",
+            "Male Octillery"
+        ],
+        [
+            "octillery-female",
+            "Female Octillery"
+        ]
+    ],
+    "donphan": [
+        [
+            "donphan-male",
+            "Male Donphan"
+        ],
+        [
+            "donphan-female",
+            "Female Donphan"
+        ]
+    ],
+    "torchic": [
+        [
+            "torchic-male",
+            "Male Torchic"
+        ],
+        [
+            "torchic-female",
+            "Female Torchic"
+        ]
+    ],
+    "combusken": [
+        [
+            "combusken-male",
+            "Male Combusken"
+        ],
+        [
+            "combusken-female",
+            "Female Combusken"
+        ]
+    ],
+    "beautifly": [
+        [
+            "beautifly-male",
+            "Male Beautifly"
+        ],
+        [
+            "beautifly-female",
+            "Female Beautifly"
+        ]
+    ],
+    "dustox": [
+        [
+            "dustox-male",
+            "Male Dustox"
+        ],
+        [
+            "dustox-female",
+            "Female Dustox"
+        ]
+    ],
+    "ludicolo": [
+        [
+            "ludicolo-male",
+            "Male Ludicolo"
+        ],
+        [
+            "ludicolo-female",
+            "Female Ludicolo"
+        ]
+    ],
+    "nuzleaf": [
+        [
+            "nuzleaf-male",
+            "Male Nuzleaf"
+        ],
+        [
+            "nuzleaf-female",
+            "Female Nuzleaf"
+        ]
+    ],
+    "shiftry": [
+        [
+            "shiftry-male",
+            "Male Shiftry"
+        ],
+        [
+            "shiftry-female",
+            "Female Shiftry"
+        ]
+    ],
+    "meditite": [
+        [
+            "meditite-male",
+            "Male Meditite"
+        ],
+        [
+            "meditite-female",
+            "Female Meditite"
+        ]
+    ],
+    "roselia": [
+        [
+            "roselia-male",
+            "Male Roselia"
+        ],
+        [
+            "roselia-female",
+            "Female Roselia"
+        ]
+    ],
+    "gulpin": [
+        [
+            "gulpin-male",
+            "Male Gulpin"
+        ],
+        [
+            "gulpin-female",
+            "Female Gulpin"
+        ]
+    ],
+    "swalot": [
+        [
+            "swalot-male",
+            "Male Swalot"
+        ],
+        [
+            "swalot-female",
+            "Female Swalot"
+        ]
+    ],
+    "numel": [
+        [
+            "numel-male",
+            "Male Numel"
+        ],
+        [
+            "numel-female",
+            "Female Numel"
+        ]
+    ],
+    "cacturne": [
+        [
+            "cacturne-male",
+            "Male Cacturne"
+        ],
+        [
+            "cacturne-female",
+            "Female Cacturne"
+        ]
+    ],
+    "milotic": [
+        [
+            "milotic-male",
+            "Male Milotic"
+        ],
+        [
+            "milotic-female",
+            "Female Milotic"
+        ]
+    ],
+    "relicanth": [
+        [
+            "relicanth-male",
+            "Male Relicanth"
+        ],
+        [
+            "relicanth-female",
+            "Female Relicanth"
+        ]
+    ],
+    "starly": [
+        [
+            "starly-male",
+            "Male Starly"
+        ],
+        [
+            "starly-female",
+            "Female Starly"
+        ]
+    ],
+    "staravia": [
+        [
+            "staravia-male",
+            "Male Staravia"
+        ],
+        [
+            "staravia-female",
+            "Female Staravia"
+        ]
+    ],
+    "bidoof": [
+        [
+            "bidoof-male",
+            "Male Bidoof"
+        ],
+        [
+            "bidoof-female",
+            "Female Bidoof"
+        ]
+    ],
+    "bibarel": [
+        [
+            "bibarel-male",
+            "Male Bibarel"
+        ],
+        [
+            "bibarel-female",
+            "Female Bibarel"
+        ]
+    ],
+    "kricketot": [
+        [
+            "kricketot-male",
+            "Male Kricketot"
+        ],
+        [
+            "kricketot-female",
+            "Female Kricketot"
+        ]
+    ],
+    "kricketune": [
+        [
+            "kricketune-male",
+            "Male Kricketune"
+        ],
+        [
+            "kricketune-female",
+            "Female Kricketune"
+        ]
+    ],
+    "shinx": [
+        [
+            "shinx-male",
+            "Male Shinx"
+        ],
+        [
+            "shinx-female",
+            "Female Shinx"
+        ]
+    ],
+    "luxio": [
+        [
+            "luxio-male",
+            "Male Luxio"
+        ],
+        [
+            "luxio-female",
+            "Female Luxio"
+        ]
+    ],
+    "luxray": [
+        [
+            "luxray-male",
+            "Male Luxray"
+        ],
+        [
+            "luxray-female",
+            "Female Luxray"
+        ]
+    ],
+    "roserade": [
+        [
+            "roserade-male",
+            "Male Roserade"
+        ],
+        [
+            "roserade-female",
+            "Female Roserade"
+        ]
+    ],
+    "combee": [
+        [
+            "combee-male",
+            "Male Combee"
+        ],
+        [
+            "combee-female",
+            "Female Combee"
+        ]
+    ],
+    "pachirisu": [
+        [
+            "pachirisu-male",
+            "Male Pachirisu"
+        ],
+        [
+            "pachirisu-female",
+            "Female Pachirisu"
+        ]
+    ],
+    "buizel": [
+        [
+            "buizel-male",
+            "Male Buizel"
+        ],
+        [
+            "buizel-female",
+            "Female Buizel"
+        ]
+    ],
+    "floatzel": [
+        [
+            "floatzel-male",
+            "Male Floatzel"
+        ],
+        [
+            "floatzel-female",
+            "Female Floatzel"
+        ]
+    ],
+    "ambipom": [
+        [
+            "ambipom-male",
+            "Male Ambipom"
+        ],
+        [
+            "ambipom-female",
+            "Female Ambipom"
+        ]
+    ],
+    "gible": [
+        [
+            "gible-male",
+            "Male Gible"
+        ],
+        [
+            "gible-female",
+            "Female Gible"
+        ]
+    ],
+    "gabite": [
+        [
+            "gabite-male",
+            "Male Gabite"
+        ],
+        [
+            "gabite-female",
+            "Female Gabite"
+        ]
+    ],
+    "hippopotas": [
+        [
+            "hippopotas-male",
+            "Male Hippopotas"
+        ],
+        [
+            "hippopotas-female",
+            "Female Hippopotas"
+        ]
+    ],
+    "hippowdon": [
+        [
+            "hippowdon-male",
+            "Male Hippowdon"
+        ],
+        [
+            "hippowdon-female",
+            "Female Hippowdon"
+        ]
+    ],
+    "croagunk": [
+        [
+            "croagunk-male",
+            "Male Croagunk"
+        ],
+        [
+            "croagunk-female",
+            "Female Croagunk"
+        ]
+    ],
+    "toxicroak": [
+        [
+            "toxicroak-male",
+            "Male Toxicroak"
+        ],
+        [
+            "toxicroak-female",
+            "Female Toxicroak"
+        ]
+    ],
+    "finneon": [
+        [
+            "finneon-male",
+            "Male Finneon"
+        ],
+        [
+            "finneon-female",
+            "Female Finneon"
+        ]
+    ],
+    "lumineon": [
+        [
+            "lumineon-male",
+            "Male Lumineon"
+        ],
+        [
+            "lumineon-female",
+            "Female Lumineon"
+        ]
+    ],
+    "snover": [
+        [
+            "snover-male",
+            "Male Snover"
+        ],
+        [
+            "snover-female",
+            "Female Snover"
+        ]
+    ],
+    "weavile": [
+        [
+            "weavile-male",
+            "Male Weavile"
+        ],
+        [
+            "weavile-female",
+            "Female Weavile"
+        ]
+    ],
+    "rhyperior": [
+        [
+            "rhyperior-male",
+            "Male Rhyperior"
+        ],
+        [
+            "rhyperior-female",
+            "Female Rhyperior"
+        ]
+    ],
+    "tangrowth": [
+        [
+            "tangrowth-male",
+            "Male Tangrowth"
+        ],
+        [
+            "tangrowth-female",
+            "Female Tangrowth"
+        ]
+    ],
+    "mamoswine": [
+        [
+            "mamoswine-male",
+            "Male Mamoswine"
+        ],
+        [
+            "mamoswine-female",
+            "Female Mamoswine"
+        ]
+    ],
+    "unfezant": [
+        [
+            "unfezant-male",
+            "Male Unfezant"
+        ],
+        [
+            "unfezant-female",
+            "Female Unfezant"
+        ]
+    ],
+    "frillish": [
+        [
+            "frillish-male",
+            "Male Frillish"
+        ],
+        [
+            "frillish-female",
+            "Female Frillish"
+        ]
+    ],
+    "jellicent": [
+        [
+            "jellicent-male",
+            "Male Jellicent"
+        ],
+        [
+            "jellicent-female",
+            "Female Jellicent"
+        ]
+    ],
+    "indeedee": [
+        [
+            "indeedee-male",
+            "Male Indeedee"
+        ],
+        [
+            "indeedee-female",
+            "Female Indeedee"
+        ]
+    ],
+    "basculegion": [
+        [
+            "basculegion-male",
+            "Male Basculegion"
+        ],
+        [
+            "basculegion-female",
+            "Female Basculegion"
+        ]
+    ],
+    "oinkologne": [
+        [
+            "oinkologne-male",
+            "Male Oinkologne"
+        ],
+        [
+            "oinkologne-female",
+            "Female Oinkologne"
+        ]
+    ]
+}

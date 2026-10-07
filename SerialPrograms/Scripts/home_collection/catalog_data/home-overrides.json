@@ -1,0 +1,1047 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-10-02",
+  "forms": {
+    "araquanid-totem": {
+      "home_available": false,
+      "evidence": "Totem variants are not retained as distinct stored HOME forms; transferable ones become ordinary size.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_HOME"
+      ]
+    },
+    "arceus-bug": {
+      "home_available": false,
+      "evidence": "HOME retains Normal Arceus; alternate types revert. The unused unknown-type form is not a legitimate stored form.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Arceus"
+      ]
+    },
+    "arceus-dark": {
+      "home_available": false,
+      "evidence": "HOME retains Normal Arceus; alternate types revert. The unused unknown-type form is not a legitimate stored form.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Arceus"
+      ]
+    },
+    "arceus-dragon": {
+      "home_available": false,
+      "evidence": "HOME retains Normal Arceus; alternate types revert. The unused unknown-type form is not a legitimate stored form.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Arceus"
+      ]
+    },
+    "arceus-electric": {
+      "home_available": false,
+      "evidence": "HOME retains Normal Arceus; alternate types revert. The unused unknown-type form is not a legitimate stored form.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Arceus"
+      ]
+    },
+    "arceus-fairy": {
+      "home_available": false,
+      "evidence": "HOME retains Normal Arceus; alternate types revert. The unused unknown-type form is not a legitimate stored form.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Arceus"
+      ]
+    },
+    "arceus-fighting": {
+      "home_available": false,
+      "evidence": "HOME retains Normal Arceus; alternate types revert. The unused unknown-type form is not a legitimate stored form.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Arceus"
+      ]
+    },
+    "arceus-fire": {
+      "home_available": false,
+      "evidence": "HOME retains Normal Arceus; alternate types revert. The unused unknown-type form is not a legitimate stored form.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Arceus"
+      ]
+    },
+    "arceus-flying": {
+      "home_available": false,
+      "evidence": "HOME retains Normal Arceus; alternate types revert. The unused unknown-type form is not a legitimate stored form.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Arceus"
+      ]
+    },
+    "arceus-ghost": {
+      "home_available": false,
+      "evidence": "HOME retains Normal Arceus; alternate types revert. The unused unknown-type form is not a legitimate stored form.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Arceus"
+      ]
+    },
+    "arceus-grass": {
+      "home_available": false,
+      "evidence": "HOME retains Normal Arceus; alternate types revert. The unused unknown-type form is not a legitimate stored form.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Arceus"
+      ]
+    },
+    "arceus-ground": {
+      "home_available": false,
+      "evidence": "HOME retains Normal Arceus; alternate types revert. The unused unknown-type form is not a legitimate stored form.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Arceus"
+      ]
+    },
+    "arceus-ice": {
+      "home_available": false,
+      "evidence": "HOME retains Normal Arceus; alternate types revert. The unused unknown-type form is not a legitimate stored form.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Arceus"
+      ]
+    },
+    "arceus-normal": {
+      "home_available": true,
+      "evidence": "HOME retains Normal Arceus; alternate types revert. The unused unknown-type form is not a legitimate stored form.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Arceus"
+      ]
+    },
+    "arceus-poison": {
+      "home_available": false,
+      "evidence": "HOME retains Normal Arceus; alternate types revert. The unused unknown-type form is not a legitimate stored form.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Arceus"
+      ]
+    },
+    "arceus-psychic": {
+      "home_available": false,
+      "evidence": "HOME retains Normal Arceus; alternate types revert. The unused unknown-type form is not a legitimate stored form.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Arceus"
+      ]
+    },
+    "arceus-rock": {
+      "home_available": false,
+      "evidence": "HOME retains Normal Arceus; alternate types revert. The unused unknown-type form is not a legitimate stored form.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Arceus"
+      ]
+    },
+    "arceus-steel": {
+      "home_available": false,
+      "evidence": "HOME retains Normal Arceus; alternate types revert. The unused unknown-type form is not a legitimate stored form.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Arceus"
+      ]
+    },
+    "arceus-unknown": {
+      "home_available": false,
+      "evidence": "HOME retains Normal Arceus; alternate types revert. The unused unknown-type form is not a legitimate stored form.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Arceus"
+      ]
+    },
+    "arceus-water": {
+      "home_available": false,
+      "evidence": "HOME retains Normal Arceus; alternate types revert. The unused unknown-type form is not a legitimate stored form.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Arceus"
+      ]
+    },
+    "calyrex": {
+      "home_available": true,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/nondepositablepokemon.shtml",
+        "https://www.serebii.net/games/shiny.shtml"
+      ],
+      "shiny_available": false
+    },
+    "calyrex-ice-rider": {
+      "home_available": false,
+      "evidence": "Fused variants cannot be deposited in HOME.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_HOME"
+      ]
+    },
+    "calyrex-shadow-rider": {
+      "home_available": false,
+      "evidence": "Fused variants cannot be deposited in HOME.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_HOME"
+      ]
+    },
+    "dialga": {
+      "home_available": true,
+      "evidence": "Ordinary stored form is supported in HOME; reviewed alternate forms are excluded.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/nondepositablepokemon.shtml"
+      ]
+    },
+    "dialga-origin": {
+      "home_available": false,
+      "evidence": "This alternate form is not retained as a stored HOME individual.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/nondepositablepokemon.shtml"
+      ]
+    },
+    "eevee-starter": {
+      "home_available": false,
+      "evidence": "The Let's Go partner cannot be deposited in HOME. This is separate from Partner Cap Pikachu.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_HOME"
+      ]
+    },
+    "eternatus": {
+      "home_available": true,
+      "evidence": "Ordinary stored form is supported in HOME; reviewed alternate forms are excluded.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/nondepositablepokemon.shtml"
+      ]
+    },
+    "eternatus-eternamax": {
+      "home_available": false,
+      "evidence": "This alternate form is not retained as a stored HOME individual.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/nondepositablepokemon.shtml"
+      ]
+    },
+    "genesect": {
+      "home_available": true,
+      "evidence": "HOME stores Genesect without a held Drive; Drive variants are not depositable.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/nondepositablepokemon.shtml"
+      ]
+    },
+    "genesect-burn-drive": {
+      "home_available": false,
+      "evidence": "HOME stores Genesect without a held Drive; Drive variants are not depositable.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/nondepositablepokemon.shtml"
+      ]
+    },
+    "genesect-chill-drive": {
+      "home_available": false,
+      "evidence": "HOME stores Genesect without a held Drive; Drive variants are not depositable.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/nondepositablepokemon.shtml"
+      ]
+    },
+    "genesect-douse-drive": {
+      "home_available": false,
+      "evidence": "HOME stores Genesect without a held Drive; Drive variants are not depositable.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/nondepositablepokemon.shtml"
+      ]
+    },
+    "genesect-shock-drive": {
+      "home_available": false,
+      "evidence": "HOME stores Genesect without a held Drive; Drive variants are not depositable.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/nondepositablepokemon.shtml"
+      ]
+    },
+    "giratina-altered": {
+      "home_available": true,
+      "evidence": "Ordinary stored form is supported in HOME; reviewed alternate forms are excluded.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/nondepositablepokemon.shtml"
+      ]
+    },
+    "giratina-origin": {
+      "home_available": false,
+      "evidence": "This alternate form is not retained as a stored HOME individual.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/nondepositablepokemon.shtml"
+      ]
+    },
+    "greninja": {
+      "home_available": true,
+      "match_ability": true,
+      "evidence": "Reviewed ability-dependent variants use pinned ability tokens; ability is evidence, not identity approval.",
+      "sources": [
+        "https://github.com/smogon/pokemon-showdown/blob/master/data/FORMES.md",
+        "https://bulbapedia.bulbagarden.net/wiki/Greninja"
+      ]
+    },
+    "greninja-battle-bond": {
+      "home_available": true,
+      "match_ability": true,
+      "evidence": "Reviewed ability-dependent variants use pinned ability tokens; ability is evidence, not identity approval. Battle Bond Greninja is male; the transformed Ash form is not the stored form.",
+      "sources": [
+        "https://github.com/smogon/pokemon-showdown/blob/master/data/FORMES.md",
+        "https://bulbapedia.bulbagarden.net/wiki/Greninja"
+      ],
+      "gender": "Male"
+    },
+    "gumshoos-totem": {
+      "home_available": false,
+      "evidence": "Totem variants are not retained as distinct stored HOME forms; transferable ones become ordinary size.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_HOME"
+      ]
+    },
+    "kommo-o-totem": {
+      "home_available": false,
+      "evidence": "Totem variants are not retained as distinct stored HOME forms; transferable ones become ordinary size.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_HOME"
+      ]
+    },
+    "kyurem": {
+      "home_available": true,
+      "evidence": "Ordinary stored form is supported in HOME; reviewed alternate forms are excluded.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/nondepositablepokemon.shtml"
+      ]
+    },
+    "kyurem-black": {
+      "home_available": false,
+      "evidence": "Fused variants cannot be deposited in HOME.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_HOME"
+      ]
+    },
+    "kyurem-white": {
+      "home_available": false,
+      "evidence": "Fused variants cannot be deposited in HOME.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_HOME"
+      ]
+    },
+    "lurantis-totem": {
+      "home_available": false,
+      "evidence": "Totem variants are not retained as distinct stored HOME forms; transferable ones become ordinary size.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_HOME"
+      ]
+    },
+    "marowak-totem": {
+      "home_available": false,
+      "evidence": "Totem variants are not retained as distinct stored HOME forms; transferable ones become ordinary size.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_HOME"
+      ]
+    },
+    "mimikyu-totem-disguised": {
+      "home_available": false,
+      "evidence": "Totem variants are not retained as distinct stored HOME forms; transferable ones become ordinary size.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_HOME"
+      ]
+    },
+    "minior-blue-core": {
+      "home_available": true,
+      "evidence": "The colored Core form is supported in HOME. Color still requires visual evidence.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "minior-blue-meteor": {
+      "home_available": false,
+      "evidence": "HOME stores Minior core colors, not Meteor Form.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "minior-green-core": {
+      "home_available": true,
+      "evidence": "The colored Core form is supported in HOME. Color still requires visual evidence.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "minior-green-meteor": {
+      "home_available": false,
+      "evidence": "HOME stores Minior core colors, not Meteor Form.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "minior-indigo-core": {
+      "home_available": true,
+      "evidence": "The colored Core form is supported in HOME. Color still requires visual evidence.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "minior-indigo-meteor": {
+      "home_available": false,
+      "evidence": "HOME stores Minior core colors, not Meteor Form.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "minior-meteor": {
+      "home_available": false,
+      "evidence": "HOME stores Minior core colors, not Meteor Form.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "minior-orange-core": {
+      "home_available": true,
+      "evidence": "The colored Core form is supported in HOME. Color still requires visual evidence.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "minior-orange-meteor": {
+      "home_available": false,
+      "evidence": "HOME stores Minior core colors, not Meteor Form.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "minior-red-core": {
+      "home_available": true,
+      "evidence": "The colored Core form is supported in HOME. Color still requires visual evidence.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "minior-red-meteor": {
+      "home_available": false,
+      "evidence": "HOME stores Minior core colors, not Meteor Form.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "minior-violet-core": {
+      "home_available": true,
+      "evidence": "The colored Core form is supported in HOME. Color still requires visual evidence.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "minior-violet-meteor": {
+      "home_available": false,
+      "evidence": "HOME stores Minior core colors, not Meteor Form.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "minior-yellow-core": {
+      "home_available": true,
+      "evidence": "The colored Core form is supported in HOME. Color still requires visual evidence.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "minior-yellow-meteor": {
+      "home_available": false,
+      "evidence": "HOME stores Minior core colors, not Meteor Form.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "necrozma": {
+      "home_available": true,
+      "evidence": "Ordinary stored form is supported in HOME; reviewed alternate forms are excluded.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/nondepositablepokemon.shtml"
+      ]
+    },
+    "necrozma-dawn-wings": {
+      "home_available": false,
+      "evidence": "Fused variants cannot be deposited in HOME.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_HOME"
+      ]
+    },
+    "necrozma-dusk-mane": {
+      "home_available": false,
+      "evidence": "Fused variants cannot be deposited in HOME.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_HOME"
+      ]
+    },
+    "ogerpon-cornerstone-mask": {
+      "home_available": false,
+      "evidence": "HOME stores Teal Mask Ogerpon; held-mask and Terastallized alternatives are not stored forms.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/paldeapokemon.shtml"
+      ]
+    },
+    "ogerpon-cornerstone-mask-terastallized": {
+      "home_available": false,
+      "evidence": "HOME stores Teal Mask Ogerpon; held-mask and Terastallized alternatives are not stored forms.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/paldeapokemon.shtml"
+      ]
+    },
+    "ogerpon-hearthflame-mask": {
+      "home_available": false,
+      "evidence": "HOME stores Teal Mask Ogerpon; held-mask and Terastallized alternatives are not stored forms.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/paldeapokemon.shtml"
+      ]
+    },
+    "ogerpon-hearthflame-mask-terastallized": {
+      "home_available": false,
+      "evidence": "HOME stores Teal Mask Ogerpon; held-mask and Terastallized alternatives are not stored forms.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/paldeapokemon.shtml"
+      ]
+    },
+    "ogerpon-teal-mask": {
+      "home_available": true,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/paldeapokemon.shtml",
+        "https://www.serebii.net/games/shiny.shtml"
+      ],
+      "shiny_available": false
+    },
+    "ogerpon-teal-mask-terastallized": {
+      "home_available": false,
+      "evidence": "HOME stores Teal Mask Ogerpon; held-mask and Terastallized alternatives are not stored forms.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/paldeapokemon.shtml"
+      ]
+    },
+    "ogerpon-wellspring-mask": {
+      "home_available": false,
+      "evidence": "HOME stores Teal Mask Ogerpon; held-mask and Terastallized alternatives are not stored forms.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/paldeapokemon.shtml"
+      ]
+    },
+    "ogerpon-wellspring-mask-terastallized": {
+      "home_available": false,
+      "evidence": "HOME stores Teal Mask Ogerpon; held-mask and Terastallized alternatives are not stored forms.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/paldeapokemon.shtml"
+      ]
+    },
+    "palkia": {
+      "home_available": true,
+      "evidence": "Ordinary stored form is supported in HOME; reviewed alternate forms are excluded.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/nondepositablepokemon.shtml"
+      ]
+    },
+    "palkia-origin": {
+      "home_available": false,
+      "evidence": "This alternate form is not retained as a stored HOME individual.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/nondepositablepokemon.shtml"
+      ]
+    },
+    "pichu": {
+      "home_available": true,
+      "evidence": "Ordinary Pichu is supported in HOME and was observed in the bounded HOME scan.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/johtopokemon.shtml"
+      ]
+    },
+    "pichu-spiky-eared": {
+      "home_available": false,
+      "gender": "Female",
+      "final_evolution": true,
+      "shiny_available": false,
+      "evidence": "Spiky-eared Pichu cannot leave HeartGold/SoulSilver, cannot evolve, and is legitimately female and non-shiny.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Spiky-eared_Pichu"
+      ]
+    },
+    "pikachu-belle": {
+      "home_available": false,
+      "evidence": "Cosplay Pikachu cannot be deposited into Bank and has no transfer path to HOME.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Transfer"
+      ]
+    },
+    "pikachu-cosplay": {
+      "home_available": false,
+      "evidence": "Cosplay Pikachu cannot be deposited into Bank and has no transfer path to HOME.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Transfer"
+      ]
+    },
+    "pikachu-libre": {
+      "home_available": false,
+      "evidence": "Cosplay Pikachu cannot be deposited into Bank and has no transfer path to HOME.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Transfer"
+      ]
+    },
+    "pikachu-phd": {
+      "home_available": false,
+      "evidence": "Cosplay Pikachu cannot be deposited into Bank and has no transfer path to HOME.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Transfer"
+      ]
+    },
+    "pikachu-pop-star": {
+      "home_available": false,
+      "evidence": "Cosplay Pikachu cannot be deposited into Bank and has no transfer path to HOME.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Transfer"
+      ]
+    },
+    "pikachu-rock-star": {
+      "home_available": false,
+      "evidence": "Cosplay Pikachu cannot be deposited into Bank and has no transfer path to HOME.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Transfer"
+      ]
+    },
+    "pikachu-starter": {
+      "home_available": false,
+      "evidence": "The Let's Go partner cannot be deposited in HOME. This is separate from Partner Cap Pikachu.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_HOME"
+      ]
+    },
+    "raticate-totem-alola": {
+      "home_available": false,
+      "evidence": "Totem variants are not retained as distinct stored HOME forms; transferable ones become ordinary size.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_HOME"
+      ]
+    },
+    "ribombee-totem": {
+      "home_available": false,
+      "evidence": "Totem variants are not retained as distinct stored HOME forms; transferable ones become ordinary size.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_HOME"
+      ]
+    },
+    "rockruff": {
+      "home_available": true,
+      "match_ability": true,
+      "evidence": "Reviewed ability-dependent variants use pinned ability tokens; ability is evidence, not identity approval.",
+      "sources": [
+        "https://github.com/smogon/pokemon-showdown/blob/master/data/FORMES.md",
+        "https://bulbapedia.bulbagarden.net/wiki/Rockruff"
+      ],
+      "final_evolution": false
+    },
+    "rockruff-own-tempo": {
+      "home_available": true,
+      "match_ability": true,
+      "evidence": "Reviewed ability-dependent variants use pinned ability tokens; ability is evidence, not identity approval. It evolves into Dusk Lycanroc.",
+      "sources": [
+        "https://github.com/smogon/pokemon-showdown/blob/master/data/FORMES.md",
+        "https://bulbapedia.bulbagarden.net/wiki/Rockruff"
+      ],
+      "final_evolution": false
+    },
+    "salazzle-totem": {
+      "home_available": false,
+      "evidence": "Totem variants are not retained as distinct stored HOME forms; transferable ones become ordinary size.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_HOME"
+      ]
+    },
+    "silvally-bug": {
+      "home_available": false,
+      "evidence": "HOME stores Normal Silvally, not the held-memory type variants.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "silvally-dark": {
+      "home_available": false,
+      "evidence": "HOME stores Normal Silvally, not the held-memory type variants.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "silvally-dragon": {
+      "home_available": false,
+      "evidence": "HOME stores Normal Silvally, not the held-memory type variants.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "silvally-electric": {
+      "home_available": false,
+      "evidence": "HOME stores Normal Silvally, not the held-memory type variants.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "silvally-fairy": {
+      "home_available": false,
+      "evidence": "HOME stores Normal Silvally, not the held-memory type variants.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "silvally-fighting": {
+      "home_available": false,
+      "evidence": "HOME stores Normal Silvally, not the held-memory type variants.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "silvally-fire": {
+      "home_available": false,
+      "evidence": "HOME stores Normal Silvally, not the held-memory type variants.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "silvally-flying": {
+      "home_available": false,
+      "evidence": "HOME stores Normal Silvally, not the held-memory type variants.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "silvally-ghost": {
+      "home_available": false,
+      "evidence": "HOME stores Normal Silvally, not the held-memory type variants.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "silvally-grass": {
+      "home_available": false,
+      "evidence": "HOME stores Normal Silvally, not the held-memory type variants.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "silvally-ground": {
+      "home_available": false,
+      "evidence": "HOME stores Normal Silvally, not the held-memory type variants.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "silvally-ice": {
+      "home_available": false,
+      "evidence": "HOME stores Normal Silvally, not the held-memory type variants.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "silvally-normal": {
+      "home_available": true,
+      "evidence": "HOME stores Normal Silvally, not the held-memory type variants.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "silvally-poison": {
+      "home_available": false,
+      "evidence": "HOME stores Normal Silvally, not the held-memory type variants.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "silvally-psychic": {
+      "home_available": false,
+      "evidence": "HOME stores Normal Silvally, not the held-memory type variants.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "silvally-rock": {
+      "home_available": false,
+      "evidence": "HOME stores Normal Silvally, not the held-memory type variants.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "silvally-steel": {
+      "home_available": false,
+      "evidence": "HOME stores Normal Silvally, not the held-memory type variants.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "silvally-water": {
+      "home_available": false,
+      "evidence": "HOME stores Normal Silvally, not the held-memory type variants.",
+      "sources": [
+        "https://www.serebii.net/pokemonhome/alolapokemon.shtml"
+      ]
+    },
+    "togedemaru-totem": {
+      "home_available": false,
+      "evidence": "Totem variants are not retained as distinct stored HOME forms; transferable ones become ordinary size.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_HOME"
+      ]
+    },
+    "vikavolt-totem": {
+      "home_available": false,
+      "evidence": "Totem variants are not retained as distinct stored HOME forms; transferable ones become ordinary size.",
+      "sources": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_HOME"
+      ]
+    },
+    "zygarde-10-power-construct": {
+      "home_available": true,
+      "match_ability": true,
+      "evidence": "Reviewed ability-dependent variants use pinned ability tokens; ability is evidence, not identity approval.",
+      "sources": [
+        "https://github.com/smogon/pokemon-showdown/blob/master/data/FORMES.md",
+        "https://bulbapedia.bulbagarden.net/wiki/Zygarde"
+      ]
+    },
+    "zygarde-50-power-construct": {
+      "home_available": true,
+      "match_ability": true,
+      "evidence": "Reviewed ability-dependent variants use pinned ability tokens; ability is evidence, not identity approval.",
+      "sources": [
+        "https://github.com/smogon/pokemon-showdown/blob/master/data/FORMES.md",
+        "https://bulbapedia.bulbagarden.net/wiki/Zygarde"
+      ]
+    },
+    "zygarde-fifty-percent": {
+      "home_available": true,
+      "match_ability": true,
+      "evidence": "Reviewed ability-dependent variants use pinned ability tokens; ability is evidence, not identity approval.",
+      "sources": [
+        "https://github.com/smogon/pokemon-showdown/blob/master/data/FORMES.md",
+        "https://bulbapedia.bulbagarden.net/wiki/Zygarde"
+      ]
+    },
+    "zygarde-ten-percent": {
+      "home_available": true,
+      "match_ability": true,
+      "evidence": "Reviewed ability-dependent variants use pinned ability tokens; ability is evidence, not identity approval.",
+      "sources": [
+        "https://github.com/smogon/pokemon-showdown/blob/master/data/FORMES.md",
+        "https://bulbapedia.bulbagarden.net/wiki/Zygarde"
+      ]
+    },
+    "pikachu-original-cap": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "pikachu-hoenn-cap": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "pikachu-sinnoh-cap": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "pikachu-unova-cap": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "pikachu-kalos-cap": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "pikachu-alola-cap": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "pikachu-world-cap": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "victini": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "vivillon-poke-ball": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "floette-eternal-flower": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "cosmog": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "cosmoem": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "magearna": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "magearna-original-color": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "marshadow": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "kubfu": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "urshifu-rapid-strike-style": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "urshifu-single-strike-style": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "zarude": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "zarude-dada": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "glastrier": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "spectrier": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "ursaluna-bloodmoon": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "walking-wake": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "iron-leaves": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "okidogi": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "munkidori": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "fezandipiti": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "gouging-fire": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "raging-bolt": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "iron-boulder": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "iron-crown": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "terapagos-normal": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    },
+    "pecharunt": {
+      "shiny_available": false,
+      "evidence": "Listed as unavailable shiny in Serebii current shiny reference, section \"Unavailable Shiny Pokémon & Non-changeable Forms\"; matched to this explicit form key.",
+      "sources": [
+        "https://www.serebii.net/games/shiny.shtml"
+      ]
+    }
+  }
+}

@@ -23,6 +23,8 @@ namespace NintendoSwitch{
 namespace PokemonHome{
 using namespace Pokemon;
 
+struct BoxNavigationTiming;
+
 class BoxSorterLivingDex_Descriptor : public SingleSwitchProgramDescriptor{
 public:
     BoxSorterLivingDex_Descriptor();
@@ -71,7 +73,8 @@ private:
         std::vector<std::optional<CollectedPokemonInfo>>& boxes_data,
         size_t box_count,
         BoxCursor& nav_cursor,
-        Language ot_name_language
+        Language ot_name_language,
+        BoxNavigationTiming& adaptive_timing
     );
 
     virtual void on_config_value_changed(void* object) override;

@@ -13,6 +13,7 @@
 #include "CommonFramework/VideoPipeline/VideoOverlayScopes.h"
 #include "VideoGames/PokemonHome/Inference/PokemonHome_ButtonDetector.h"
 #include "PokemonHome_BoxViewDetector.h"
+#include "PokemonHome_BoxSpacesDetector.h"
 #include "Tests/TestUtils.h"
 
 namespace PokemonAutomation{
@@ -26,7 +27,8 @@ void BoxViewDetector::make_overlays(VideoOverlaySet& items) const{
 }
 
 bool BoxViewDetector::detect(const ImageViewRGB32& screen){
-    return m_button_plus_detector.detect(screen);
+    BoxSpacesDetector overview;
+    return !overview.detect(screen) && m_button_plus_detector.detect(screen);
 }
 
 

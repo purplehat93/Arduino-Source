@@ -1,0 +1,12 @@
+{
+  "origin": "Installed Pokemon Automation Resources/Pokemon HOME sprite atlas",
+  "purpose": "Visual template vocabulary and exact runtime asset binding; not proof of detector accuracy",
+  "files": {
+    "AllHomeSprites.json": {
+      "sha256": "0a3b319dc42ceaf8fc745ea9b451583a09d4e516dec78f11cf85a99a6a7e79b2"
+    },
+    "AllHomeSprites.png": {
+      "sha256": "002ba45bb6445167f0d8b96d0e05251639b1273a537e5d11832f82b8d3c337ef"
+    }
+  }
+}

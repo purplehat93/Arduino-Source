@@ -1746,6 +1746,11 @@ file(GLOB LIBRARY_SOURCES
     Source/VideoGames/PokemonHome/PokemonHome_Settings.h
     Source/VideoGames/PokemonHome/PokemonHome_Tests.cpp
     Source/VideoGames/PokemonHome/PokemonHome_Tests.h
+    Source/VideoGames/PokemonHome/Inference/PokemonHome_BoxSpacesDetector.cpp
+    Source/VideoGames/PokemonHome/Inference/PokemonHome_BoxSpacesDetector.h
+    Source/VideoGames/PokemonHome/Programs/PokemonHome_VerifiedBoxNavigation.cpp
+    Source/VideoGames/PokemonHome/Programs/PokemonHome_BoxSpacesTimingTest.cpp
+    Source/VideoGames/PokemonHome/Programs/PokemonHome_BoxSpacesTimingTest.h
     Source/VideoGames/PokemonHome/Programs/PokemonHome_BoxNavigation.cpp
     Source/VideoGames/PokemonHome/Programs/PokemonHome_BoxNavigation.h
     Source/VideoGames/PokemonHome/Programs/PokemonHome_BoxSorter.cpp
